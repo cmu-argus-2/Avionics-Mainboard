@@ -1,0 +1,122 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a84e6a4e-5034-411f-b353-a2d357bb825b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 226.06 80.01)
+		(size 13.97 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38c9bb90-4b64-4a1a-9777-da7ced3dc08c")
+		(property "Sheetname" "GPS Power"
+			(at 226.06 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS_Power.kicad_sch"
+			(at 226.06 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/8a87c1a3-d2a2-4a29-8f5e-6f86eec8fa11"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 58.42)
+		(size 20.32 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3d24b1d-de51-4729-9f70-377bd9a40a47")
+		(property "Sheetname" "Main Power"
+			(at 179.07 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainPower.kicad_sch"
+			(at 179.07 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/8a87c1a3-d2a2-4a29-8f5e-6f86eec8fa11"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 95.25)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fccbb650-59c2-43b1-a4c6-48bd2dc427d0")
+		(property "Sheetname" "LoRa Power"
+			(at 185.42 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRa_Power.kicad_sch"
+			(at 185.42 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/8a87c1a3-d2a2-4a29-8f5e-6f86eec8fa11"
+					(page "16")
+				)
+			)
+		)
+	)
+)
