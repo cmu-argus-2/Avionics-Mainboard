@@ -1110,12 +1110,6 @@
 		(uuid "605196e1-456c-4926-9d16-f2020d5a3cbf")
 	)
 	(junction
-		(at 157.48 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "677b5513-bfaa-43ad-a9fc-94609e5130d0")
-	)
-	(junction
 		(at 36.83 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1174,12 +1168,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bded0508-d917-481c-b7cf-2a6dc75f366c")
-	)
-	(junction
-		(at 157.48 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c15ad6e8-7253-46a2-8f76-c123558e1878")
 	)
 	(junction
 		(at 255.27 57.15)
@@ -1460,6 +1448,16 @@
 			(type default)
 		)
 		(uuid "300783d8-c6d5-43d4-a801-a808752d2360")
+	)
+	(wire
+		(pts
+			(xy 135.89 54.61) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e629a0-4aad-4460-901c-94d211c29bec")
 	)
 	(wire
 		(pts
@@ -1813,23 +1811,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 157.48 54.61)
+			(xy 157.48 46.99) (xy 157.48 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84793895-ad70-430e-bcb5-b75d83029cbf")
-	)
-	(wire
-		(pts
-			(xy 157.48 54.61) (xy 157.48 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8493a5a6-0721-4d9c-a21d-a6de9159ce77")
 	)
 	(wire
 		(pts
@@ -1920,6 +1908,16 @@
 			(type default)
 		)
 		(uuid "9bec04b1-4737-4d52-bebd-0553b3267f9f")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec111d6-4f3b-4e57-93e7-1d69428809da")
 	)
 	(wire
 		(pts
@@ -2020,16 +2018,6 @@
 			(type default)
 		)
 		(uuid "ae9abf9e-2273-495c-8f7c-13f23d9405e3")
-	)
-	(wire
-		(pts
-			(xy 135.89 49.53) (xy 157.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afe5f491-4116-4cfb-8718-e860f5df5a28")
 	)
 	(wire
 		(pts
@@ -2200,16 +2188,6 @@
 			(type default)
 		)
 		(uuid "ccf9cd4b-f0d8-43fa-82e6-74b4af0fb1c7")
-	)
-	(wire
-		(pts
-			(xy 135.89 54.61) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7dc8d1-bffa-407c-80c8-d3aacf0a6c55")
 	)
 	(wire
 		(pts
@@ -2423,16 +2401,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 157.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb369a54-f4ff-4072-9b30-b768f084fd80")
-	)
-	(wire
-		(pts
 			(xy 138.43 102.87) (xy 138.43 105.41)
 		)
 		(stroke
@@ -2624,6 +2592,18 @@
 		)
 		(uuid "4c904371-0b80-447c-8bb9-c5dc43b186df")
 	)
+	(hierarchical_label "Jetson_CSn"
+		(shape input)
+		(at 139.7 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55063d23-0759-419a-b5f8-85e4b697d084")
+	)
 	(hierarchical_label "I2C0_SCL"
 		(shape bidirectional)
 		(at 39.37 177.8 0)
@@ -2635,6 +2615,18 @@
 			(justify left)
 		)
 		(uuid "5c267b85-f668-4754-ba97-dab1d68ba643")
+	)
+	(hierarchical_label "Jetson_CLK"
+		(shape input)
+		(at 139.7 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68952543-d3ad-4e69-b05c-748f1180643f")
 	)
 	(hierarchical_label "I2C0_SDA"
 		(shape bidirectional)
@@ -2708,6 +2700,18 @@
 		)
 		(uuid "93861789-e5fe-48a5-924e-b5658f4628e1")
 	)
+	(hierarchical_label "Jetson_MISO"
+		(shape output)
+		(at 139.7 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97f2c232-d421-499d-82d4-a8790c6c1719")
+	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 90.17 123.19 0)
@@ -2720,9 +2724,9 @@
 		)
 		(uuid "9cc46330-d8fe-436d-adfa-eab1f09c9c81")
 	)
-	(hierarchical_label "MCU_RX_JETSON"
-		(shape output)
-		(at 139.7 57.15 0)
+	(hierarchical_label "Jetson_MOSI"
+		(shape input)
+		(at 139.7 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2730,7 +2734,7 @@
 			)
 			(justify left)
 		)
-		(uuid "dc2fbafa-fab9-4573-871c-02c42e921804")
+		(uuid "ad569781-e8dd-4d85-9861-ecdc8f13356e")
 	)
 	(hierarchical_label "Battery_ALERT"
 		(shape output)
@@ -2767,18 +2771,6 @@
 			(justify left)
 		)
 		(uuid "ee2d9dd4-c0f9-43c3-b899-0aeb27d5d024")
-	)
-	(hierarchical_label "MCU_TX_JETSON"
-		(shape input)
-		(at 139.7 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa22ff07-5cb7-4a41-85a9-3aa12a33a3f2")
 	)
 	(symbol
 		(lib_id "MainBoard:1824543")

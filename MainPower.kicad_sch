@@ -3050,9 +3050,9 @@
 		)
 		(uuid "b07da7ff-0e31-4b6f-9898-e7fa71731dbd")
 	)
-	(hierarchical_label "SDA_BUS"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 256.54 130.81 0)
+		(at 256.54 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3060,7 +3060,7 @@
 			)
 			(justify left)
 		)
-		(uuid "13cf658b-e5c6-4ace-bc5e-57bf91430873")
+		(uuid "46471519-d31b-409b-b41d-7f36c29945d2")
 	)
 	(hierarchical_label "3V3_RST"
 		(shape input)
@@ -3074,9 +3074,9 @@
 		)
 		(uuid "4b85ff89-f50c-4455-adbd-f3735672b309")
 	)
-	(hierarchical_label "SCL_BUS"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 256.54 128.27 0)
+		(at 256.54 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3084,7 +3084,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4f76dfe5-e2b7-475c-8482-1d719c766b34")
+		(uuid "ac306e86-87a7-4388-8dab-3c5ee25e0b42")
 	)
 	(symbol
 		(lib_id "Device:R_Small")

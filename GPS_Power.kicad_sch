@@ -2639,7 +2639,7 @@
 		)
 		(uuid "24430ce0-2799-4580-b4a4-fcedb4b6f28d")
 	)
-	(hierarchical_label "SDA_BUS"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 215.9 62.23 0)
 		(fields_autoplaced yes)
@@ -2649,7 +2649,19 @@
 			)
 			(justify left)
 		)
-		(uuid "2cb98d86-e3f5-49df-87e8-965653358696")
+		(uuid "668e96ba-6f88-4c4b-a039-2e44f3038f39")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 215.9 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba4562d3-c634-4dc7-8e67-eb3d106f8eae")
 	)
 	(hierarchical_label "GPS_RX_MCU"
 		(shape input)
@@ -2662,18 +2674,6 @@
 			(justify right)
 		)
 		(uuid "e3ce5a6f-8a30-4eea-80a0-ca44dc65a6cc")
-	)
-	(hierarchical_label "SCL_BUS"
-		(shape bidirectional)
-		(at 215.9 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5bce7cd-3f30-4b76-943b-2ec4e507c4df")
 	)
 	(hierarchical_label "GPS_EN"
 		(shape input)

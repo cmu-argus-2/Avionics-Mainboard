@@ -2561,6 +2561,17 @@
 		)
 		(uuid "6c310a6a-ff70-44de-ac89-81e4cd09a626")
 	)
+	(label "LoRa_CSn"
+		(at 243.84 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7384d00f-e627-4aa7-b776-4d3cbe004fa9")
+	)
 	(label "LoRa_DIO2"
 		(at 201.93 96.52 0)
 		(fields_autoplaced yes)
@@ -2715,17 +2726,6 @@
 		)
 		(uuid "f21de8d3-1d62-482d-8b4e-e953aac298d6")
 	)
-	(label "CSn"
-		(at 243.84 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6383a8c-3d5c-4b87-b61f-5c653ef639e7")
-	)
 	(hierarchical_label "LoRa_DIO2"
 		(shape bidirectional)
 		(at 218.44 96.52 0)
@@ -2738,7 +2738,7 @@
 		)
 		(uuid "1e1177ec-09c0-4f34-a59d-bc050b3e2287")
 	)
-	(hierarchical_label "SDA_BUS"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 260.35 52.07 0)
 		(fields_autoplaced yes)
@@ -2786,7 +2786,7 @@
 		)
 		(uuid "45fee323-b1a8-40e5-a0a9-6839cbf1159b")
 	)
-	(hierarchical_label "SCL_BUS"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 260.35 49.53 0)
 		(fields_autoplaced yes)
