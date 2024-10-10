@@ -1,8 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MainBoard")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Mainboard.kicad_sym")(options "")(descr ""))
-  (lib (name "Argus-Connectors")(type "KiCad")(uri "C:/Users/varun/Documents/Carnegie Mellon/18873/Avionics-Hardware/Avionics-BatteryBoard/KiCad-Libraries/Argus-Connectors.kicad_sym")(options "")(descr ""))
-  (lib (name "Argus-IC")(type "KiCad")(uri "C:/Users/varun/Documents/Carnegie Mellon/18873/Avionics-Hardware/Avionics-BatteryBoard/KiCad-Libraries/Argus-IC.kicad_sym")(options "")(descr ""))
-  (lib (name "Argus-Miscellaneous")(type "KiCad")(uri "C:/Users/varun/Documents/Carnegie Mellon/18873/Avionics-Hardware/Avionics-BatteryBoard/KiCad-Libraries/Argus-Miscellaneous.kicad_sym")(options "")(descr ""))
-  (lib (name "Argus-Passives")(type "KiCad")(uri "C:/Users/varun/Documents/Carnegie Mellon/18873/Avionics-Hardware/Avionics-BatteryBoard/KiCad-Libraries/Argus-Passives.kicad_sym")(options "")(descr ""))
+  (lib (name "Argus-Connectors")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Argus-Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Argus-IC")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Argus-IC.kicad_sym")(options "")(descr ""))
+  (lib (name "Argus-Miscellaneous")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Argus-Miscellaneous.kicad_sym")(options "")(descr ""))
+  (lib (name "Argus-Passives")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Argus-Passives.kicad_sym")(options "")(descr ""))
 )

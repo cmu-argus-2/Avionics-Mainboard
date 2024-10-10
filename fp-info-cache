@@ -1,4 +1,4 @@
-23858635813090759
+23860364223678128
 Argus-Connectors
 1824527
 1824527
@@ -13,6 +13,13 @@ Connector
 0
 6
 6
+Argus-Connectors
+Molex_200528-0100_1x10-1MP_P1.00mm_Horizontal
+Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0100, 10 Circuits (https://www.molex.com/pdm_docs/sd/2005280100_sd.pdf), generated with kicad-footprint-generator
+connector Molex  top entry
+0
+12
+11
 Argus-IC
 21-0137_T1433&plus_2C_MXM
 
