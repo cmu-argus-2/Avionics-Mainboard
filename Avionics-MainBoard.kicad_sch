@@ -408,16 +408,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 74.93) (xy 97.79 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128e152f-9909-4889-94e3-dd130bbacbd2")
-	)
-	(wire
-		(pts
 			(xy 167.64 220.98) (xy 176.53 220.98)
 		)
 		(stroke
@@ -561,16 +551,6 @@
 			(type default)
 		)
 		(uuid "3e2a55a1-8eb5-4955-81b6-85e1b289c4d5")
-	)
-	(wire
-		(pts
-			(xy 72.39 77.47) (xy 97.79 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43023ba7-fef4-4c8a-8401-ab2457d2cd87")
 	)
 	(wire
 		(pts
@@ -812,6 +792,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 248.92) (xy 97.79 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6f972f-ffa5-4b33-b995-c72a3281e096")
+	)
+	(wire
+		(pts
 			(xy 127 31.75) (xy 127 231.14)
 		)
 		(stroke
@@ -874,6 +864,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "8ef079d9-2205-4b63-a159-c0a829cebdcf")
+	)
+	(wire
+		(pts
+			(xy 72.39 238.76) (xy 97.79 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90306182-f25b-409f-8253-79d3b739b432")
 	)
 	(wire
 		(pts
@@ -1926,26 +1926,6 @@
 			)
 			(uuid "bb049f05-981b-469d-8d91-a78d22258845")
 		)
-		(pin "LoRa_DIO2" bidirectional
-			(at 72.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b5c8c18a-fe60-4f25-812d-ece16246abf7")
-		)
-		(pin "LoRa_DIO1" bidirectional
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2c764657-a04b-43a9-a7a7-28db5c60331e")
-		)
 		(pin "LoRa_RX_EN" output
 			(at 72.39 90.17 0)
 			(effects
@@ -2095,6 +2075,26 @@
 				(justify right)
 			)
 			(uuid "a2e60b24-03b7-4134-ad9a-62d61b6bc8f4")
+		)
+		(pin "Jetson_EN" output
+			(at 72.39 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36c2070b-68df-4994-a904-0f3521f44e3d")
+		)
+		(pin "Battery_ALERT" input
+			(at 72.39 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "70d046e9-c69a-40ce-92b8-a605b84bb5bd")
 		)
 		(instances
 			(project "Avionics-MainBoard"
@@ -2254,6 +2254,26 @@
 			)
 			(uuid "f71d5920-4bff-4b5e-ab2a-a6e298375f28")
 		)
+		(pin "Battery_ALERT" output
+			(at 97.79 248.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec617478-c0ee-4377-bd56-d59a5b9000dc")
+		)
+		(pin "Jetson_EN" input
+			(at 97.79 238.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61ff3dd7-9ef4-4f39-8bf9-95042c11027f")
+		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d"
@@ -2409,26 +2429,6 @@
 				(justify left)
 			)
 			(uuid "4f0a1ac9-8bb9-48ac-9db7-38ce42230db3")
-		)
-		(pin "LoRa_DIO1" bidirectional
-			(at 97.79 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c08475ee-92b4-420b-b580-41ec5c74600a")
-		)
-		(pin "LoRa_DIO2" bidirectional
-			(at 97.79 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62c2003a-c438-43a6-b56e-bc8c4c04e516")
 		)
 		(pin "LoRa_BUSY" output
 			(at 97.79 80.01 180)

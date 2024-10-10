@@ -1681,12 +1681,20 @@
 		(uuid "2ac45596-8df3-48b6-a090-589eae4c1e9c")
 	)
 	(no_connect
+		(at 95.25 124.46)
+		(uuid "2c9b25aa-8462-4f95-9a10-e9259a8d0874")
+	)
+	(no_connect
 		(at 210.82 46.99)
 		(uuid "902b5ab3-cbf0-4af8-8937-b56407c46c3b")
 	)
 	(no_connect
 		(at 176.53 46.99)
 		(uuid "c3ed248c-01ea-4683-8708-86635f09acf4")
+	)
+	(no_connect
+		(at 60.96 134.62)
+		(uuid "c441902b-85ae-4812-b48c-3811be98bbc6")
 	)
 	(wire
 		(pts
@@ -2270,16 +2278,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 110.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac30e2dd-136c-4346-9d50-ec9d126e9004")
-	)
-	(wire
-		(pts
 			(xy 77.47 58.42) (xy 77.47 55.88)
 		)
 		(stroke
@@ -2457,16 +2455,6 @@
 			(type default)
 		)
 		(uuid "d624374c-12e7-4698-818f-1024ccc528a9")
-	)
-	(wire
-		(pts
-			(xy 49.53 134.62) (xy 60.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9938f5-2532-43c1-98a9-9407660d01e2")
 	)
 	(wire
 		(pts
@@ -2656,17 +2644,6 @@
 		)
 		(uuid "18b696a1-fd32-442f-8a54-7c20497fa543")
 	)
-	(label "LoRa_DIO1"
-		(at 99.06 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3011b9df-491c-4faa-a0a1-02551a92f9cd")
-	)
 	(label "LoRa_TX_EN"
 		(at 36.83 132.08 0)
 		(fields_autoplaced yes)
@@ -2688,17 +2665,6 @@
 			(justify left bottom)
 		)
 		(uuid "528fbd30-a06f-4061-801f-97493f006e2e")
-	)
-	(label "LoRa_DIO2"
-		(at 49.53 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70f59de0-3b6c-47d0-84bd-451e64ca105b")
 	)
 	(label "LoRa_CSn"
 		(at 243.84 123.19 0)
