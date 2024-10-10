@@ -1681,16 +1681,12 @@
 		(uuid "2ac45596-8df3-48b6-a090-589eae4c1e9c")
 	)
 	(no_connect
-		(at 176.53 49.53)
-		(uuid "380f7789-0910-4c3f-9b41-4f85f6f20e9a")
+		(at 210.82 46.99)
+		(uuid "902b5ab3-cbf0-4af8-8937-b56407c46c3b")
 	)
 	(no_connect
 		(at 176.53 46.99)
-		(uuid "8bd714b9-603e-4225-83c5-697b6e3a8475")
-	)
-	(no_connect
-		(at 210.82 46.99)
-		(uuid "902b5ab3-cbf0-4af8-8937-b56407c46c3b")
+		(uuid "c3ed248c-01ea-4683-8708-86635f09acf4")
 	)
 	(wire
 		(pts
@@ -1731,6 +1727,16 @@
 			(type default)
 		)
 		(uuid "0a4981e0-11e2-4be2-a881-dd89238f13f1")
+	)
+	(wire
+		(pts
+			(xy 175.26 49.53) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e19d6b5-91ed-467c-a13e-2dddf130d4ea")
 	)
 	(wire
 		(pts
@@ -2294,6 +2300,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 49.53) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7500f94-3f90-4899-855b-8121a12a07dc")
+	)
+	(wire
+		(pts
 			(xy 106.68 59.69) (xy 101.6 59.69)
 		)
 		(stroke
@@ -2585,7 +2601,7 @@
 		)
 		(uuid "489a122c-a72e-4e80-9d1d-a00a4c379715")
 	)
-	(text "0x4A"
+	(text "0x42"
 		(exclude_from_sim no)
 		(at 212.598 72.898 0)
 		(effects
@@ -4380,6 +4396,71 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e76a12ae-3051-4fcf-9c3a-9913816859a8")
+		(property "Reference" "#PWR0154"
+			(at 175.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6847808-152d-4925-acc3-1d954c1524e2")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)

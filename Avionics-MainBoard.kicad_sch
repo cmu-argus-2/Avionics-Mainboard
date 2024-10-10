@@ -1430,7 +1430,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0eb6c05-79db-473f-a45d-3805aa949025")
+			(uuid "e0eb6c05-79db-473f-a45d-3805aa949026")
 		)
 		(instances
 			(project ""
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0eb6c05-79db-473f-a45d-3805aa949025")
+			(uuid "e0eb6c05-79db-473f-a45d-3805aa949027")
 		)
 		(instances
 			(project ""
@@ -1560,7 +1560,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0eb6c05-79db-473f-a45d-3805aa949025")
+			(uuid "e0eb6c05-79db-473f-a45d-3805aa949028")
 		)
 		(instances
 			(project ""
@@ -1739,7 +1739,7 @@
 	)
 	(sheet
 		(at 46.99 22.225)
-		(size 25.4 225.425)
+		(size 25.4 229.235)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_IO.kicad_sch"
-			(at 46.99 248.2346 0)
+			(at 46.99 252.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,26 +1805,6 @@
 				(justify right)
 			)
 			(uuid "de6994eb-de90-4c20-93a5-5e89fa1c4d68")
-		)
-		(pin "UART0_TX" output
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1f2ee49a-e062-435d-b075-11498bd29317")
-		)
-		(pin "UART0_RX" input
-			(at 72.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f2ebafd0-7dc5-422b-a01a-0a06cb837910")
 		)
 		(pin "IMU_RSTn" output
 			(at 72.39 200.66 0)
@@ -2126,7 +2106,7 @@
 	)
 	(sheet
 		(at 97.79 209.55)
-		(size 25.4 38.1)
+		(size 25.4 41.91)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2146,7 +2126,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 97.79 248.2346 0)
+			(at 97.79 252.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1834,10 +1834,6 @@
 		(at 207.01 125.73)
 		(uuid "bee42ab8-300c-4d5a-902a-57c519e85a2f")
 	)
-	(no_connect
-		(at 172.72 125.73)
-		(uuid "f6d33769-3ffc-4654-ade9-68d888ede764")
-	)
 	(wire
 		(pts
 			(xy 147.32 135.89) (xy 147.32 137.16)
@@ -2480,6 +2476,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 125.73) (xy 171.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d38af00-8e9e-41d2-b414-ff81cd621879")
+	)
+	(wire
+		(pts
 			(xy 142.24 45.72) (xy 142.24 46.99)
 		)
 		(stroke
@@ -2800,6 +2806,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 125.73) (xy 171.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe9e275-bf1c-4f90-8d83-5c49bcd1aeb9")
+	)
+	(wire
+		(pts
 			(xy 45.72 116.84) (xy 45.72 118.11)
 		)
 		(stroke
@@ -2973,7 +2989,7 @@
 		)
 		(uuid "7c50fe68-75e8-4fd7-926a-4a9ae99af337")
 	)
-	(text "0x4A"
+	(text "0x48"
 		(exclude_from_sim no)
 		(at 208.788 151.638 0)
 		(effects
@@ -3216,6 +3232,71 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce"
 					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "203cd21f-5348-480a-9e9f-7327d04d2b52")
+		(property "Reference" "#PWR0155"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba36bb67-38fe-4c03-8831-545e8d28830b")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)

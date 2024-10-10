@@ -2867,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 31.75) (xy 83.82 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027efbdc-8df3-4814-8a74-6f63d76ee0c5")
+	)
+	(wire
+		(pts
 			(xy 106.68 110.49) (xy 125.73 110.49)
 		)
 		(stroke
@@ -2874,6 +2884,16 @@
 			(type default)
 		)
 		(uuid "03e8caad-65e1-452e-9e64-2aafc4d228be")
+	)
+	(polyline
+		(pts
+			(xy 160.655 68.58) (xy 160.655 23.495)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0443d1c5-ebf2-4409-953a-2dc9dcd06b0e")
 	)
 	(wire
 		(pts
@@ -2887,13 +2907,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 31.75) (xy 76.2 33.02)
+			(xy 95.25 31.75) (xy 95.25 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08c3f279-77b3-4276-93f5-7d42d71717a4")
+		(uuid "094478ac-c8df-41a7-b5e9-66f11f873265")
 	)
 	(wire
 		(pts
@@ -2955,6 +2975,16 @@
 		)
 		(uuid "11c228c0-2a99-4075-9944-1648194876ad")
 	)
+	(polyline
+		(pts
+			(xy 121.92 68.58) (xy 160.655 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "131d7183-5ddc-499b-815b-c3fbc011ea30")
+	)
 	(wire
 		(pts
 			(xy 106.68 107.95) (xy 125.73 107.95)
@@ -2967,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 55.88) (xy 96.52 57.15)
+			(xy 139.7 31.75) (xy 139.7 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3027,13 +3057,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 55.88) (xy 45.72 57.15)
+			(xy 128.27 52.07) (xy 128.27 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e8cb1d5-4adc-4e01-8007-c152ce8a2ec7")
+	)
+	(wire
+		(pts
+			(xy 105.41 31.75) (xy 105.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecbc36f-607b-401b-8ba7-95cd234fb657")
 	)
 	(wire
 		(pts
@@ -3057,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 62.23) (xy 86.36 63.5)
+			(xy 129.54 38.1) (xy 129.54 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3097,13 +3137,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 63.5)
+			(xy 139.7 38.1) (xy 139.7 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a456b99-3d43-479b-8354-e0a458a9ce6c")
+	)
+	(polyline
+		(pts
+			(xy 121.92 23.495) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2b5f24d3-5c7b-4f56-a4f2-f63846d7ff4d")
 	)
 	(wire
 		(pts
@@ -3197,16 +3247,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 86.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b71323-a462-49f9-8079-4a67aa5a5f11")
-	)
-	(wire
-		(pts
 			(xy 236.22 88.9) (xy 236.22 83.82)
 		)
 		(stroke
@@ -3237,6 +3277,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 38.1) (xy 95.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422abf45-acaf-4f2d-b64e-cc3264b167ef")
+	)
+	(wire
+		(pts
 			(xy 35.56 153.67) (xy 40.64 153.67)
 		)
 		(stroke
@@ -3244,16 +3294,6 @@
 			(type default)
 		)
 		(uuid "42e57a75-a66a-4a25-905d-338374921e71")
-	)
-	(wire
-		(pts
-			(xy 86.36 31.75) (xy 86.36 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4307c25d-dff6-4412-b933-29c7dd4507ac")
 	)
 	(wire
 		(pts
@@ -3314,16 +3354,6 @@
 			(type default)
 		)
 		(uuid "4fb9a7cb-e9e1-4167-b6d4-f7c1edbae958")
-	)
-	(wire
-		(pts
-			(xy 96.52 38.1) (xy 96.52 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502d31d5-8c45-4abb-b052-16ecb8a80531")
 	)
 	(wire
 		(pts
@@ -3487,7 +3517,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 66.04 57.15)
+			(xy 105.41 38.1) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d23d070-ecfa-4d27-95cb-11d8f4e95081")
+	)
+	(wire
+		(pts
+			(xy 139.7 52.07) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 62.23) (xy 66.04 63.5)
+			(xy 139.7 58.42) (xy 139.7 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3687,16 +3727,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 31.75) (xy 96.52 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d3025c3-1986-47cb-bc32-b85cc3d7aa62")
-	)
-	(wire
-		(pts
 			(xy 106.68 161.29) (xy 125.73 161.29)
 		)
 		(stroke
@@ -3724,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "9089b5be-65e5-45cc-b35b-2e4f97a6f131")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 83.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930bbf78-dbdb-47fe-90f5-66d1b5ac278c")
 	)
 	(wire
 		(pts
@@ -3857,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 86.36 57.15)
+			(xy 129.54 31.75) (xy 129.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3937,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 62.23) (xy 76.2 63.5)
+			(xy 149.86 58.42) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3974,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "cab15fc4-cec5-4d25-9453-a02768acfe3a")
+	)
+	(polyline
+		(pts
+			(xy 121.92 23.495) (xy 160.655 23.495)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cb458fb8-8a41-463a-820f-caaa6e7eb35a")
 	)
 	(wire
 		(pts
@@ -4117,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 106.68 57.15)
+			(xy 149.86 31.75) (xy 149.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4177,16 +4227,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 76.2 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef92764e-311f-46aa-81f6-795dcdcf8bef")
-	)
-	(wire
-		(pts
 			(xy 30.48 143.51) (xy 25.4 143.51)
 		)
 		(stroke
@@ -4237,7 +4277,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 55.88) (xy 76.2 57.15)
+			(xy 149.86 52.07) (xy 149.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4257,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 62.23) (xy 106.68 63.5)
+			(xy 149.86 38.1) (xy 149.86 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4267,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 45.72 63.5)
+			(xy 128.27 58.42) (xy 128.27 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4284,6 +4324,16 @@
 			(type default)
 		)
 		(uuid "ffbaf6ee-4c37-41f7-9deb-c9bef990499b")
+	)
+	(text "IOVDD"
+		(exclude_from_sim no)
+		(at 157.226 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37c191c0-56ff-4307-8e5c-82ed133220f6")
 	)
 	(label "SPI0_CLK"
 		(at 110.49 143.51 0)
@@ -5209,7 +5259,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 55.88 0)
+		(at 128.27 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5218,7 +5268,7 @@
 		(fields_autoplaced yes)
 		(uuid "032b7c21-ca32-402f-8932-31e891c1aac6")
 		(property "Reference" "#PWR017"
-			(at 45.72 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5277,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 50.8 0)
+			(at 128.27 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 55.88 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 55.88 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 55.88 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +5325,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 63.5 0)
+		(at 139.7 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5284,7 +5334,7 @@
 		(fields_autoplaced yes)
 		(uuid "05247fe9-45cd-4101-a6d1-968519aa7326")
 		(property "Reference" "#PWR026"
-			(at 66.04 69.85 0)
+			(at 139.7 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5343,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 68.58 0)
+			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 63.5 0)
+			(at 139.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 63.5 0)
+			(at 139.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 63.5 0)
+			(at 139.7 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,6 +5543,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 83.82 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c68b7f-6e13-43fb-8765-7bbb725aa0c5")
+		(property "Reference" "#PWR028"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1d20d0f-4b19-4147-ad25-935bf12fc00e")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 248.92 137.16 0)
 		(unit 1)
@@ -5557,76 +5673,6 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 76.2 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "193c31a5-f0e1-4cf5-aa86-331a4a2d4747")
-		(property "Reference" "C7"
-			(at 78.74 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 78.74 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b5ac6e6-a3d2-4e17-b80f-d6fed7291209")
-		)
-		(pin "2"
-			(uuid "031e98cc-1290-4f74-b824-50006b3fbf85")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5769,72 +5815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23da35c9-1826-4730-add4-a2477e69706f")
-		(property "Reference" "#PWR028"
-			(at 76.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "208189b1-e099-4a79-a77a-3b401bebc871")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 66.04 31.75 0)
 		(unit 1)
@@ -5968,7 +5948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 63.5 0)
+		(at 149.86 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5977,7 +5957,7 @@
 		(fields_autoplaced yes)
 		(uuid "2829f3cd-ea33-421f-87d6-51ffa6885aea")
 		(property "Reference" "#PWR030"
-			(at 76.2 69.85 0)
+			(at 149.86 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 68.58 0)
+			(at 149.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 63.5 0)
+			(at 149.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 63.5 0)
+			(at 149.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 63.5 0)
+			(at 149.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,6 +6007,72 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b10a803-75e3-41c9-b3a9-4856f4c73e11")
+		(property "Reference" "#PWR031"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43bb60ad-453a-4053-bbf9-e7e3794b4db0")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6163,6 +6209,76 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "343594f8-ba97-46a5-bf81-213eb16c0905")
+		(property "Reference" "C7"
+			(at 86.36 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 86.36 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "529e0620-a25e-4b3f-a793-552df475a399")
+		)
+		(pin "2"
+			(uuid "a30be059-43cb-4fc8-8b7d-b8edcac0ad41")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6312,16 +6428,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 39.37 0)
+		(at 105.41 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4387b165-fcf0-4722-871e-e96c0e3d00a9")
+		(uuid "38572214-9d3f-436c-b934-91a8a90de9df")
 		(property "Reference" "#PWR036"
-			(at 96.52 45.72 0)
+			(at 105.41 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 44.45 0)
+			(at 105.41 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 39.37 0)
+			(at 105.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6481,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff7d4bac-cd95-4fce-8384-14ee3276e349")
+			(uuid "f883f9c1-40d2-4955-bc1d-0c9963d15486")
 		)
 		(instances
 			(project "Avionics-MainBoard"
@@ -6377,8 +6493,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "406f3547-06a0-4da5-bfa3-6f544d9c272e")
+		(property "Reference" "C12"
+			(at 97.79 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 97.79 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ddcd42a-b4f1-44ef-9408-308235882802")
+		)
+		(pin "2"
+			(uuid "163c1ab0-ad40-4ae7-905c-5a5145ec2d9a")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 66.04 55.88 0)
+		(at 139.7 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6387,7 +6573,7 @@
 		(fields_autoplaced yes)
 		(uuid "44438150-7245-48e1-9df5-91e1d7b028e8")
 		(property "Reference" "#PWR025"
-			(at 66.04 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6582,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 66.04 50.8 0)
+			(at 139.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 55.88 0)
+			(at 139.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 55.88 0)
+			(at 139.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 66.04 55.88 0)
+			(at 139.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6865,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 86.36 59.69 0)
+		(at 129.54 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6688,7 +6874,7 @@
 		(fields_autoplaced yes)
 		(uuid "4987ded3-736e-4bc7-9697-c0d727fa68ac")
 		(property "Reference" "C13"
-			(at 88.9 58.4262 0)
+			(at 132.08 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6883,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 88.9 60.9662 0)
+			(at 132.08 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6892,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 59.69 0)
+			(at 129.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 59.69 0)
+			(at 129.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6910,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 59.69 0)
+			(at 129.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,6 +6928,72 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 95.25 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d544e3-2e67-40f1-a6f6-d3f787e8abbe")
+		(property "Reference" "#PWR032"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "147b6384-c0c5-4103-81af-2f79fb218339")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7271,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 96.52 55.88 0)
+		(at 139.7 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7028,7 +7280,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a5f569e-1c69-4e1d-9da7-1212aee0591e")
 		(property "Reference" "#PWR037"
-			(at 96.52 59.69 0)
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,7 +7289,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.52 50.8 0)
+			(at 139.7 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 55.88 0)
+			(at 139.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 55.88 0)
+			(at 139.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 55.88 0)
+			(at 139.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,6 +7395,142 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 105.41 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7de1b1-d8a2-4107-92ca-1ed1dfd6042d")
+		(property "Reference" "#PWR035"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 105.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a28dce-1cda-437a-be53-5893d63ffa03")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e694320-3b58-42f6-b64a-e656ce08bece")
+		(property "Reference" "C14"
+			(at 107.95 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2u2"
+			(at 107.95 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb28e64c-c080-464b-bcfc-b6bc0ea95d6f")
+		)
+		(pin "2"
+			(uuid "3d362b3a-2968-49e7-bd77-69e3b35fa7aa")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7284,76 +7672,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 86.36 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b9ba505-378f-40f3-a86c-a67884d8949e")
-		(property "Reference" "C12"
-			(at 88.9 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 88.9 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 86.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00c49217-c45d-47e9-86c3-7f8a8ab96706")
-		)
-		(pin "2"
-			(uuid "c2ea8830-dca8-4b42-8ee0-c9715b4a5b9c")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 33.02 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7481,72 +7799,6 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 86.36 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f02bf1c-b2b2-4401-82c0-7c48b16a481c")
-		(property "Reference" "#PWR031"
-			(at 86.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6bec0f8-2331-4c40-a1a1-5d095a72df78")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7826,7 +8078,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 76.2 55.88 0)
+		(at 149.86 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7835,7 +8087,7 @@
 		(fields_autoplaced yes)
 		(uuid "786b9ef0-f9b0-45d4-8f0a-5eff53b7af72")
 		(property "Reference" "#PWR029"
-			(at 76.2 59.69 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7844,7 +8096,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 76.2 50.8 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 55.88 0)
+			(at 149.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +8113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 55.88 0)
+			(at 149.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,7 +8122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 76.2 55.88 0)
+			(at 149.86 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8144,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 63.5 0)
+		(at 149.86 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7901,7 +8153,7 @@
 		(fields_autoplaced yes)
 		(uuid "82279355-77d7-473c-ab03-9170b7bd8d53")
 		(property "Reference" "#PWR040"
-			(at 106.68 69.85 0)
+			(at 149.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7910,7 +8162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 68.58 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 63.5 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +8179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 63.5 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +8188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 63.5 0)
+			(at 149.86 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 59.69 0)
+		(at 128.27 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7967,7 +8219,7 @@
 		(fields_autoplaced yes)
 		(uuid "8867e269-2e7e-4247-adf8-54b5c942b6ec")
 		(property "Reference" "C5"
-			(at 48.26 58.4262 0)
+			(at 130.81 54.6162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +8228,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 48.26 60.9662 0)
+			(at 130.81 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +8237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8255,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8280,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 63.5 0)
+		(at 128.27 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8037,7 +8289,7 @@
 		(fields_autoplaced yes)
 		(uuid "8941424a-9e9f-4f73-ae39-7071c21cb01e")
 		(property "Reference" "#PWR018"
-			(at 45.72 69.85 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 68.58 0)
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 63.5 0)
+			(at 128.27 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 63.5 0)
+			(at 128.27 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8324,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 63.5 0)
+			(at 128.27 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,72 +8339,6 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 76.2 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bf1b7c0-1a3a-42d7-a1f2-22e4a69db565")
-		(property "Reference" "#PWR027"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 76.2 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 76.2 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6e8da91-cca2-44e8-8b05-da28cbbd3024")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8177,7 +8363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "100n"
 			(at 48.26 36.8362 0)
 			(effects
 				(font
@@ -8230,7 +8416,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 59.69 0)
+		(at 139.7 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8239,7 +8425,7 @@
 		(fields_autoplaced yes)
 		(uuid "8db10d1f-1315-424e-be23-327fcde649d7")
 		(property "Reference" "C9"
-			(at 68.58 58.4262 0)
+			(at 142.24 54.6162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8434,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 68.58 60.9662 0)
+			(at 142.24 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8461,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 66.04 59.69 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8639,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 59.69 0)
+		(at 149.86 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8462,7 +8648,7 @@
 		(fields_autoplaced yes)
 		(uuid "957eb84b-0bcc-4934-9c08-3f50068e1b59")
 		(property "Reference" "C16"
-			(at 109.22 58.4262 0)
+			(at 152.4 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,7 +8657,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 109.22 60.9662 0)
+			(at 152.4 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8666,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.68 59.69 0)
+			(at 149.86 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 59.69 0)
+			(at 149.86 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8684,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 59.69 0)
+			(at 149.86 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 63.5 0)
+		(at 139.7 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8995,7 +9181,7 @@
 		(fields_autoplaced yes)
 		(uuid "c217ee03-8d1e-4ba5-8f0c-8164d5dc6f0a")
 		(property "Reference" "#PWR038"
-			(at 96.52 69.85 0)
+			(at 139.7 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 68.58 0)
+			(at 139.7 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 63.5 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 63.5 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 63.5 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9370,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 96.52 59.69 0)
+		(at 139.7 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9193,7 +9379,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7382f5-2093-4e77-b5fe-6a4b7312fbe8")
 		(property "Reference" "C15"
-			(at 99.06 58.4262 0)
+			(at 142.24 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9388,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 99.06 60.9662 0)
+			(at 142.24 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9397,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 96.52 59.69 0)
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 59.69 0)
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9415,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 59.69 0)
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "100n"
 			(at 68.58 36.8362 0)
 			(effects
 				(font
@@ -9474,7 +9660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2"
+		(property "Value" "1u"
 			(at 58.42 36.8362 0)
 			(effects
 				(font
@@ -9527,16 +9713,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 106.68 55.88 0)
+		(at 83.82 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e218da7a-66ee-4dd1-9e73-a8c195fea5b8")
-		(property "Reference" "#PWR039"
-			(at 106.68 59.69 0)
+		(uuid "db3f5fc7-b71e-40dd-a35e-c1b734eacf90")
+		(property "Reference" "#PWR027"
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9731,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 106.68 50.8 0)
+			(at 83.82 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 55.88 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 55.88 0)
+			(at 83.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9757,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.68 55.88 0)
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "971cd7fb-0045-44be-930c-a0b406c1f207")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e218da7a-66ee-4dd1-9e73-a8c195fea5b8")
+		(property "Reference" "#PWR039"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 63.5 0)
+		(at 129.54 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9602,7 +9854,7 @@
 		(fields_autoplaced yes)
 		(uuid "e292e6dc-8762-4e44-bea6-bbd5d53d3e85")
 		(property "Reference" "#PWR034"
-			(at 86.36 69.85 0)
+			(at 129.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 68.58 0)
+			(at 129.54 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 63.5 0)
+			(at 129.54 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 63.5 0)
+			(at 129.54 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +9889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 63.5 0)
+			(at 129.54 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9911,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 76.2 59.69 0)
+		(at 149.86 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9668,7 +9920,7 @@
 		(fields_autoplaced yes)
 		(uuid "e33d499f-f57e-4f37-9835-f5739a752eee")
 		(property "Reference" "C11"
-			(at 78.74 58.4262 0)
+			(at 152.4 54.6162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +9929,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 78.74 60.9662 0)
+			(at 152.4 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +9938,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 59.69 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9695,7 +9947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 59.69 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9956,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 59.69 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,78 +9980,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 96.52 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7a48427-6e3b-4f69-9441-b4a56f811983")
-		(property "Reference" "C14"
-			(at 99.06 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2u2"
-			(at 99.06 36.8362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97451592-8287-4426-9030-734f0f6af547")
-		)
-		(pin "2"
-			(uuid "8a93e753-1080-4f8b-a38b-1c93deec343d")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 86.36 55.88 0)
+		(at 129.54 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9808,7 +9990,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec5fb20c-a874-461b-b71c-1fd7ea724976")
 		(property "Reference" "#PWR033"
-			(at 86.36 59.69 0)
+			(at 129.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +9999,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.36 50.8 0)
+			(at 129.54 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +10007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 55.88 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +10016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 55.88 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +10025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 55.88 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,138 +10242,6 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6dd243d-e26a-4d6e-842e-e4bcd9410fcd")
-		(property "Reference" "#PWR035"
-			(at 96.52 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.52 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdcf16a4-2033-4ac8-87bf-8ebe370b0578")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca044fa-8f7e-4aa2-abda-66a5195f2e4e")
-		(property "Reference" "#PWR032"
-			(at 86.36 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a29766e-f6a8-41fa-a9cf-c11e2cc5ae5b")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
