@@ -1080,7 +1080,7 @@
 		)
 		(uuid "db71b8de-d081-4a64-8770-aba050c9f3d2")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 190.5 88.9 0)
 		(fields_autoplaced yes)
@@ -1090,9 +1090,9 @@
 			)
 			(justify left)
 		)
-		(uuid "25852fa7-aaa5-4561-bbcd-8d828ef5cbb6")
+		(uuid "11cb0cbc-c908-4e3e-872f-f8379afed03f")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 190.5 91.44 0)
 		(fields_autoplaced yes)
@@ -1102,7 +1102,7 @@
 			)
 			(justify left)
 		)
-		(uuid "907ba568-7e58-46b6-9543-24fe6b71ed6c")
+		(uuid "8f6ab5e2-09fa-4f48-9be1-eb983878be08")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -1189,7 +1189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DS3231M"
+		(property "Value" "DS3231S"
 			(at 119.7259 106.68 0)
 			(effects
 				(font
@@ -1651,7 +1651,7 @@
 			)
 		)
 		(pin "SDA_DEVICE" bidirectional
-			(at 154.94 88.9 180)
+			(at 154.94 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1661,7 @@
 			(uuid "044e8dab-7f08-4c04-a77c-66c1b00c1cc7")
 		)
 		(pin "SCL_DEVICE" bidirectional
-			(at 154.94 91.44 180)
+			(at 154.94 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1671,7 @@
 			(uuid "0c167d57-b6cb-4f62-9e3a-5bfd22eea46c")
 		)
 		(pin "SDA_BUS" bidirectional
-			(at 180.34 88.9 0)
+			(at 180.34 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1681,7 @@
 			(uuid "453c91d4-c54f-4fff-a98e-ea3a79ae6214")
 		)
 		(pin "SCL_BUS" bidirectional
-			(at 180.34 91.44 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

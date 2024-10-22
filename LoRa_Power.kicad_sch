@@ -2058,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 218.44 92.71)
+			(xy 201.93 100.33) (xy 218.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2105,16 +2105,6 @@
 			(type default)
 		)
 		(uuid "7d4d70ca-201b-456a-bcb5-3f65c2e324e9")
-	)
-	(wire
-		(pts
-			(xy 201.93 96.52) (xy 218.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da393ce-1af3-41b8-9b65-7e21957fbda3")
 	)
 	(wire
 		(pts
@@ -2175,16 +2165,6 @@
 			(type default)
 		)
 		(uuid "8868a1a7-dd2d-4ed1-8cb8-b22427fb423e")
-	)
-	(wire
-		(pts
-			(xy 201.93 100.33) (xy 218.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894957ce-c245-4e16-82b8-8a5f1ab878a0")
 	)
 	(wire
 		(pts
@@ -2770,17 +2750,6 @@
 		)
 		(uuid "766f8935-ebac-408f-a3fe-83fc000feb6d")
 	)
-	(label "LoRa_DIO2"
-		(at 201.93 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f33ddd9-3223-4e99-967d-18bdab626737")
-	)
 	(label "LoRa_MOSI"
 		(at 181.61 130.81 0)
 		(fields_autoplaced yes)
@@ -2814,17 +2783,6 @@
 		)
 		(uuid "885597a2-de8f-4304-816d-5f002928ae95")
 	)
-	(label "LoRa_DIO1"
-		(at 201.93 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fcd3729-ba16-4ab3-8229-6526b7b8fa03")
-	)
 	(label "LoRa_CSn"
 		(at 99.06 144.78 270)
 		(fields_autoplaced yes)
@@ -2837,7 +2795,7 @@
 		(uuid "9d475b03-2530-4b39-8264-908cef6d5713")
 	)
 	(label "LoRa_RSTn"
-		(at 201.93 92.71 0)
+		(at 201.93 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2935,18 +2893,6 @@
 		)
 		(uuid "f21de8d3-1d62-482d-8b4e-e953aac298d6")
 	)
-	(hierarchical_label "LoRa_DIO2"
-		(shape bidirectional)
-		(at 218.44 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e1177ec-09c0-4f34-a59d-bc050b3e2287")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 260.35 52.07 0)
@@ -2961,7 +2907,7 @@
 	)
 	(hierarchical_label "LoRa_RSTn"
 		(shape input)
-		(at 218.44 92.71 0)
+		(at 218.44 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3042,18 +2988,6 @@
 			(justify left)
 		)
 		(uuid "9e4624df-05b7-42c1-9e6e-544ba6cdbc89")
-	)
-	(hierarchical_label "LoRa_DIO1"
-		(shape bidirectional)
-		(at 218.44 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b69e23ed-4a1b-4e53-a9d8-0ae88d6d3f9f")
 	)
 	(hierarchical_label "CSn"
 		(shape input)
