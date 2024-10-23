@@ -1520,71 +1520,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 186.69 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "022d5972-5d6f-4be9-a67b-7882c026aed2")
-		(property "Reference" "#PWR0117"
-			(at 186.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 186.69 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 186.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "883b4b0c-90dd-4ff0-935f-7d554724e123")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
 		(at 95.25 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1738,7 +1673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Connectors:1824527"
+		(property "Footprint" "Argus-Connectors:1823638"
 			(at 124.46 209.22 0)
 			(effects
 				(font
@@ -2193,7 +2128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1824543"
+		(property "Footprint" "Argus-Connectors:1823654"
 			(at 111.76 162.23 0)
 			(effects
 				(font
@@ -2344,7 +2279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Connectors:1824527"
+		(property "Footprint" "Argus-Connectors:1823638"
 			(at 77.8 110.49 0)
 			(effects
 				(font
@@ -2579,6 +2514,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.69 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce3c75b8-e188-4da9-bf2f-52f2b5dff755")
+		(property "Reference" "#PWR0117"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5055de31-3034-4a5a-a3e3-c75b4659dc8e")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MainBoard:1824527")
 		(at 153.67 93.98 270)
 		(unit 1)
@@ -2603,7 +2603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Connectors:1824527"
+		(property "Footprint" "Argus-Connectors:1823638"
 			(at 58.75 110.49 0)
 			(effects
 				(font
