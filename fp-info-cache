@@ -1,4 +1,4 @@
-23863823484273765
+23862101920153602
 Argus-Connectors
 1823638
 
@@ -97,13 +97,6 @@ RPi_Pico
 0
 40
 40
-Argus-Miscellaneous
-S1216_24PIN_PACKAGE
-
-
-0
-24
-24
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
