@@ -1918,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 44.45) (xy 212.09 44.45)
+			(xy 210.82 44.45) (xy 213.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2118,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 44.45) (xy 217.17 44.45)
+			(xy 220.98 44.45) (xy 218.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3866,7 @@
 		(dnp no)
 		(uuid "821e2123-0e4a-4f43-a310-34dae1cfe3a2")
 		(property "Reference" "R112"
-			(at 160.02 48.26 0)
+			(at 158.75 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3874,7 @@
 			)
 		)
 		(property "Value" "?R"
-			(at 160.02 50.8 0)
+			(at 160.02 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4058,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 214.63 44.45 270)
+		(at 215.9 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4066,7 +4066,7 @@
 		(dnp no)
 		(uuid "939aac1c-839b-4f47-90ce-bdfb2e875e02")
 		(property "Reference" "C57"
-			(at 214.63 39.624 90)
+			(at 215.9 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4074,7 @@
 			)
 		)
 		(property "Value" "3n3"
-			(at 214.63 41.6814 90)
+			(at 215.9 41.6814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 214.63 44.45 0)
+			(at 215.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 44.45 0)
+			(at 215.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "Description" "3.3nF +-10% 100V X7R 0603"
-			(at 214.63 44.45 0)
+			(at 215.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
