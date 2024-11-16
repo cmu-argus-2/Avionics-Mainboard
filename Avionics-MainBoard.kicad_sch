@@ -501,16 +501,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 97.79 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a82815-4b0c-43c0-8b45-c79e4bf431d5")
-	)
-	(wire
-		(pts
 			(xy 72.39 99.06) (xy 90.17 99.06)
 		)
 		(stroke
@@ -799,6 +789,16 @@
 			(type default)
 		)
 		(uuid "8380310f-c596-4cfe-b3c7-ecc5ccfb465d")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 97.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8427c1c5-cf8a-4445-8d80-4774587964b7")
 	)
 	(wire
 		(pts
@@ -1668,16 +1668,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GPS_EN" input
-			(at 97.79 143.51 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2cc5e6c3-aedf-450e-983a-3d71cfab4321")
-		)
 		(pin "GPS_TX_MCU" output
 			(at 97.79 138.43 180)
 			(effects
@@ -1804,16 +1794,6 @@
 				(justify right)
 			)
 			(uuid "765401e8-80a2-457f-ab24-c1a70422628f")
-		)
-		(pin "GPS_EN" output
-			(at 72.39 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cc5742b4-afd9-4dd4-b9bd-d7a6883d19d2")
 		)
 		(pin "LoRa_CSn" output
 			(at 72.39 68.58 0)
@@ -2074,6 +2054,16 @@
 				(justify right)
 			)
 			(uuid "70d046e9-c69a-40ce-92b8-a605b84bb5bd")
+		)
+		(pin "LoRa_INT" input
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a05cac1f-8e04-4ba3-b0ce-168dab9277c7")
 		)
 		(instances
 			(project "Avionics-MainBoard"
@@ -2468,6 +2458,16 @@
 				(justify left)
 			)
 			(uuid "053ff268-d0dc-4b08-951a-55a2445e0d47")
+		)
+		(pin "LoRa_INT" output
+			(at 97.79 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "28fb4db6-ed01-498c-9ba8-8260ddb68af0")
 		)
 		(instances
 			(project "Avionics-MainBoard"

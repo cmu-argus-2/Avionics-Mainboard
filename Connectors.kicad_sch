@@ -1212,12 +1212,6 @@
 		(uuid "dfd820aa-d77a-4d18-8931-00dc16f2bf27")
 	)
 	(junction
-		(at 173.99 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e42eabdd-941a-4bbb-903f-0431271d9823")
-	)
-	(junction
 		(at 127 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1234,6 +1228,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa88010d-2d2a-4707-bd71-120ecdf7a9e2")
+	)
+	(no_connect
+		(at 173.99 39.37)
+		(uuid "42a2adbe-4586-4742-a811-cc23a5391f27")
+	)
+	(no_connect
+		(at 173.99 36.83)
+		(uuid "5e33ed0a-54d3-4f4c-b370-4c1735746bc3")
 	)
 	(wire
 		(pts
@@ -2267,16 +2269,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 39.37) (xy 173.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7dd4707-8900-47f2-86df-cc720f87b31e")
-	)
-	(wire
-		(pts
 			(xy 41.91 118.11) (xy 36.83 118.11)
 		)
 		(stroke
@@ -2504,16 +2496,6 @@
 			(type default)
 		)
 		(uuid "edcb3b0c-e770-46ee-bc0f-de87f3714a74")
-	)
-	(wire
-		(pts
-			(xy 173.99 36.83) (xy 173.99 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a877ce-be91-4229-96e6-8a458814e943")
 	)
 	(wire
 		(pts
@@ -6202,71 +6184,6 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/4f4b7284-37b0-4a6d-8b77-acbb922141bd"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 173.99 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e564d541-9839-4b11-8f0a-f92529eea6f4")
-		(property "Reference" "#PWR0173"
-			(at 173.99 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 51.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65ed344f-0227-40ad-9835-47a8ea9316ea")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/4f4b7284-37b0-4a6d-8b77-acbb922141bd"
-					(reference "#PWR0173")
 					(unit 1)
 				)
 			)

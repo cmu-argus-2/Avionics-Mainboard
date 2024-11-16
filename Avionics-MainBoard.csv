@@ -1,0 +1,71 @@
+﻿Reference,Value,Datasheet,Footprint,Qty,DNP,QTYx5
+BT1,3.0V,~,Battery:BatteryHolder_LINX_BAT-HLD-012-SMT,1,,5
+C1 C2,15p,~,Capacitor_SMD:C_0603_1608Metric,2,,10
+C3 C4 C5 C8 C9 C10 C11 C13 C15 C16 C18 C19 C20 C25 C33 C34 C46 C61,100n,-- mixed values --,Capacitor_SMD:C_0603_1608Metric,18,,90
+C6 C7 C12 C17 C37 C62,1u,-- mixed values --,Capacitor_SMD:C_0603_1608Metric,6,,30
+C14,2u2,~,Capacitor_SMD:C_0603_1608Metric,1,,5
+C21 C22,20p,~,Capacitor_SMD:C_0603_1608Metric,2,,10
+C23 C24 C30 C31 C35 C36 C48 C49 C50 C52 C53 C54,10n,~,Capacitor_SMD:C_0603_1608Metric,12,,60
+C29 C38,4u7,,Capacitor_SMD:C_0603_1608Metric,2,,10
+C32,47u,,Capacitor_SMD:C_1210_3225Metric,1,,5
+C39 C43 C55 C56 C58 C59 C65,10u,-- mixed values --,-- mixed values --,7,,35
+C40 C42 C47 C63 C64,22u,-- mixed values --,Capacitor_SMD:C_0603_1608Metric,5,,25
+C41,47n,,Capacitor_SMD:C_0603_1608Metric,1,,5
+C51 C57 C60 C66,3n3,-- mixed values --,Capacitor_SMD:C_0603_1608Metric,4,,20
+D1 D2,NUP2105L,https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF,Package_TO_SOT_SMD:SOT-23,2,,10
+D3,GREEN LED,https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF,LED_SMD:LED_0603_1608Metric,1,,5
+J1,USB_C_Receptacle_USB2.0,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,,5
+J2 J4 J6 J9 J14 J15 J16 J18 J19,200528-0100,~,Argus-Connectors:Molex_200528-0100_1x10-1MP_P1.00mm_Horizontal,9,,45
+J3,Conn_01x06,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,1,,5
+J5,Micro_SD_Card_Det2,https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en,Connector_Card:microSD_HC_Molex_104031-0811,1,,5
+J7,U.FL-R-SMT-1,~,Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical,1,,5
+J8,Conn_01x02,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,,5
+J10 J17,1824543,http://www.phoenixcontact.com/de/produkte/1824543/pdf,Argus-Connectors:1823654,2,,10
+J11 J12 J13,1824527,http://www.phoenixcontact.com/de/produkte/1824527/pdf,Argus-Connectors:1823638,3,,15
+L1,1uH,https://datasheet.lcsc.com/lcsc/1912111437_PSA-Prosperity-Dielectrics-MCS25GD-1R0MMP_C375955.pdf,Inductor_SMD:L_Wuerth_MAPI-2510,1,,5
+L2,3.3uH,https://datasheet.lcsc.com/lcsc/2009171412_TAI-TECH-HPC5040NF-3R3MTH_C304367.pdf,Inductor_SMD:L_1812_4532Metric,1,,5
+Q1,IRLML2803,,Package_TO_SOT_SMD:SOT-23,1,,5
+Q2 Q3 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q17 Q29 Q30,MBT2222ADW1T1,http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF,Package_TO_SOT_SMD:SOT-363_SC-70-6,14,,70
+Q4 Q16 Q22 Q24 Q26 Q28 Q44 Q46 Q48 Q50 Q52 Q99,NX3008NBKS,~,Package_TO_SOT_SMD:SOT-363_SC-70-6,12,,60
+Q14 Q15,MMBT2907,https://diotec.com/request/datasheet/mmbta56.pdf,Package_TO_SOT_SMD:SOT-23,2,,10
+Q18,IRLML0030,https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df,Package_TO_SOT_SMD:SOT-23,1,,5
+Q19,IRF7404,http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,,5
+R1 R7,100k,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R2 R5 R6,1k,~,Resistor_SMD:R_0603_1608Metric,3,,15
+R3,0R (DNI),~,Resistor_SMD:R_0603_1608Metric,1,,5
+R4 R10 R11 R49 R56,0R,~,Resistor_SMD:R_0603_1608Metric,5,,25
+R8 R9 R33,2k2,~,Resistor_SMD:R_0603_1608Metric,3,,15
+R12 R16 R17 R20 R21 R23 R24 R34 R35 R36 R48 R62 R63 R67 R70 R86 R87 R91 R92 R96 R97 R108 R110 R124 R161 R166 R167 R172 R173 R178 R179 R184 R185 R190 R191,10K,~,Resistor_SMD:R_0603_1608Metric,35,,175
+R13 R18 R27 R29 R30 R32 R60 R84 R89 R94 R105 R163 R169 R175 R181 R187,680R,~,Resistor_SMD:R_0603_1608Metric,16,,80
+R14 R19 R61 R85 R90 R95 R106 R116 R118 R121 R164 R170 R176 R182 R188,100K,~,Resistor_SMD:R_0603_1608Metric,15,,75
+R15 R100 R101 R102 R103 R104 R107 R165 R171 R177 R183 R189,DNI (0R),~,Resistor_SMD:R_0603_1608Metric,12,,60
+R22 R55 R83 R88 R93 R98 R120 R162 R168 R174 R180 R186 R192,200K,~,Resistor_SMD:R_0603_1608Metric,13,,65
+R25 R26,10k,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R28 R31,120R,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R37 R50 R57,4.7K,~,Resistor_SMD:R_0603_1608Metric,3,,15
+R38,3.3K,~,Resistor_SMD:R_0603_1608Metric,1,,5
+R46 R47,5k1,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R51 R52 R58 R59 R109 R113 R123,1K,~,Resistor_SMD:R_0603_1608Metric,7,,35
+R65,5k23,~,Resistor_SMD:R_0603_1608Metric,1,,5
+R66,30k1,~,Resistor_SMD:R_0603_1608Metric,1,,5
+R68 R112 R122,?R,~,Resistor_SMD:R_2512_6332Metric,3,,15
+R69 R111,3.16K,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R114 R117,73.2K,~,Resistor_SMD:R_0603_1608Metric,2,,10
+R115,22.1K,~,Resistor_SMD:R_0603_1608Metric,1,,5
+R119,20K,~,Resistor_SMD:R_0603_1608Metric,1,,5
+SW1 SW2,SW_Omron_B3FS,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf,Button_Switch_SMD:SW_SPST_Omron_B3FS-105xP,2,,10
+U1,MR25H40MDF,,Package_DFN_QFN:DFN-8-1EP_6x5mm_P1.27mm_EP2x2mm,1,,5
+U2,RP2040,https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,1,,5
+U3,MAX706RESA+,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,,5
+U4,DS3231S,http://datasheets.maximintegrated.com/en/ds/DS3231.pdf,Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm,1,,5
+U5,BNO085,BNO085,Package_LGA:LGA-28_5.2x3.8mm_P0.5mm,1,,5
+U6,USBLC6-2SC6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,Package_TO_SOT_SMD:SOT-23-6,1,,5
+U7,E22-900M30S,,Argus-Miscellaneous:E22-900M30S-SX1262,1,,5
+U8,S1216V8,,Argus-Miscellaneous:S1216_24PIN_PACKAGE,1,,5
+U9,BQ25883RGER,http://www.ti.com/lit/ds/symlink/bq25883.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.co.uk%2F,Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm,1,,5
+U12,ADM1491EBR,https://www.analog.com/media/en/technical-documentation/data-sheets/ADM1490E_1491E.pdf,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,1,,5
+U14 U16 U18,ADM1176-1ARMZ-R7,,Package_SO:MSOP-10_3x3mm_P0.5mm,3,,15
+U15,TPS7A4501DCQT,,Package_TO_SOT_SMD:SOT-223-6,1,,5
+U17,TPS54226PWPR,,Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm,1,,5
+Y1,12MHz,~,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,1,,5
+Y2,32.768kHz,~,Crystal:Crystal_SMD_EuroQuartz_EQ161-2Pin_3.2x1.5mm,1,,5
