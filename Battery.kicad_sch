@@ -4,6 +4,15 @@
 	(generator_version "8.0")
 	(uuid "96a6a1c3-844c-4f75-a1b1-b30cdc4bd5af")
 	(paper "A4")
+	(title_block
+		(title "Argus Mainboard")
+		(date "2024-11-19")
+		(rev "v2.1")
+		(company "Carnegie Mellon University")
+		(comment 1 "M. Holliday")
+		(comment 2 "N. Khera")
+		(comment 3 "V. Rajesh")
+	)
 	(lib_symbols
 		(symbol "Argus-Connectors:1824543"
 			(exclude_from_sim no)
