@@ -675,10 +675,6 @@
       "MCU_IO"
     ],
     [
-      "1d43a322-a4de-4625-bc76-e4a5abbb5f5f",
-      "I2C Protection6"
-    ],
-    [
       "db13e207-3bf8-4f4b-b8f6-f29c20baff72",
       "IMU"
     ],
@@ -687,8 +683,8 @@
       "I2C Protection1"
     ],
     [
-      "ec96f119-4921-4ef6-adcf-d9378a123968",
-      "WireProtection1"
+      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
+      "WireProtection"
     ],
     [
       "b16b096c-e757-42e7-a323-f6a3422bc211",
@@ -731,8 +727,12 @@
       "WireProtection1"
     ],
     [
-      "ec96f119-4921-4ef6-adcf-d9378a123968",
-      "WireProtection1"
+      "5ab6bffb-ac70-4d04-bc1f-09141586f2fc",
+      "I2C Protection7"
+    ],
+    [
+      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
+      "WireProtection"
     ],
     [
       "78119d8f-72cc-42e3-aa87-c12b52c477b9",
@@ -748,15 +748,11 @@
     ],
     [
       "1ff82478-f00f-4d48-a429-2ed9117c0498",
-      "GPS Power"
-    ],
-    [
-      "6dcdd520-f92f-4264-b446-8551a35308dc",
-      "I2C Protection4"
+      "GPS"
     ],
     [
       "6167394f-ef17-4174-a137-33bfda5b3a14",
-      "LoRa Power"
+      "LoRa"
     ],
     [
       "5194385a-96b9-4b1e-ba0c-f9caab4441d8",
@@ -771,20 +767,12 @@
       "I2C Protection5"
     ],
     [
-      "e8413423-8996-4173-bb3c-f5f8b032e422",
-      "RS485"
+      "ec96f119-4921-4ef6-adcf-d9378a123968",
+      "WireProtection1"
     ],
     [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
-    ],
-    [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
-    ],
-    [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
+      "0c04e6a7-6d16-45e0-b82f-bf6f349905a8",
+      "Payload"
     ],
     [
       "78119d8f-72cc-42e3-aa87-c12b52c477b9",

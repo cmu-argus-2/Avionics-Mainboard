@@ -848,24 +848,23 @@
 				)
 			)
 		)
-		(symbol "Device:Polyfuse_Small"
+		(symbol "Device:Fuse_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at -1.905 0 90)
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Polyfuse_Small"
-				(at 1.905 0 90)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -873,12 +872,11 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -891,7 +889,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(property "Description" "Fuse, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -900,7 +898,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+			(property "ki_keywords" "fuse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -909,7 +907,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -918,10 +916,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Polyfuse_Small_0_1"
+			(symbol "Fuse_Small_0_1"
 				(rectangle
-					(start -0.508 1.27)
-					(end 0.508 -1.27)
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -932,19 +930,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -955,10 +941,10 @@
 					)
 				)
 			)
-			(symbol "Polyfuse_Small_1_1"
+			(symbol "Fuse_Small_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
+					(at -2.54 0 0)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -975,8 +961,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
+					(at 2.54 0 180)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -3079,7 +3065,7 @@
 		)
 		(uuid "49d644a7-3ec4-43df-a23d-bd94a715d501")
 	)
-	(text "GPS Power"
+	(text "GPS Enable"
 		(exclude_from_sim no)
 		(at 81.026 47.498 0)
 		(effects
@@ -3089,6 +3075,17 @@
 			(justify left bottom)
 		)
 		(uuid "673f9bdc-3bd1-4b4f-bc80-f15fea350e0d")
+	)
+	(text "GPS Module"
+		(exclude_from_sim no)
+		(at 191.77 67.31 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify bottom)
+		)
+		(uuid "9563a8e5-6e70-4300-917a-fc0ec53be526")
 	)
 	(text "TODO: Pick one"
 		(exclude_from_sim no)
@@ -5222,7 +5219,7 @@
 			(uuid "d162324b-d6c8-46cb-a38f-0fbe90cd6443")
 		)
 		(instances
-			(project ""
+			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/1ff82478-f00f-4d48-a429-2ed9117c0498"
 					(reference "U8")
 					(unit 1)
@@ -5231,8 +5228,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse_Small")
-		(at 73.66 60.96 0)
+		(lib_id "Device:Fuse_Small")
+		(at 73.66 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5240,7 +5237,7 @@
 		(dnp no)
 		(uuid "c0e1b52c-c07d-497d-8c76-f222daec3bdf")
 		(property "Reference" "F2"
-			(at 72.39 59.944 0)
+			(at 69.342 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5246,7 @@
 			)
 		)
 		(property "Value" "250mA"
-			(at 72.39 61.976 0)
+			(at 65.278 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,12 +5255,11 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 66.04 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5276,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+		(property "Description" "Fuse, small symbol"
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -5292,7 +5288,7 @@
 			(uuid "d4625a7b-609a-4504-a696-a375962edf36")
 		)
 		(instances
-			(project ""
+			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/1ff82478-f00f-4d48-a429-2ed9117c0498"
 					(reference "F2")
 					(unit 1)
