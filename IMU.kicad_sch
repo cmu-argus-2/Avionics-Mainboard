@@ -2514,7 +2514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
+		(property "Footprint" "Argus-IC:BNO085"
 			(at 91.44 69.85 0)
 			(effects
 				(font
