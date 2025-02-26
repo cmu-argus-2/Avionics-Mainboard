@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2024-11-19")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -77,7 +77,6 @@
 	(hierarchical_label "SDA_BUS"
 		(shape bidirectional)
 		(at 158.75 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -89,7 +88,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 129.54 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -101,7 +99,6 @@
 	(hierarchical_label "SDA_DEVICE"
 		(shape bidirectional)
 		(at 129.54 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -113,7 +110,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 129.54 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -125,7 +121,6 @@
 	(hierarchical_label "SCL_BUS"
 		(shape bidirectional)
 		(at 157.48 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -137,7 +132,6 @@
 	(hierarchical_label "SCL_DEVICE"
 		(shape bidirectional)
 		(at 129.54 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -217,7 +211,7 @@
 			)
 			(project ""
 				(path "/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8"
-					(page "")
+					(page "#")
 				)
 			)
 			(project "Avionics-MainBoard"

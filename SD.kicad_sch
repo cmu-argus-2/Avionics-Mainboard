@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2024-11-19")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -1367,7 +1367,6 @@
 	)
 	(label "SD_MISO"
 		(at 74.93 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1378,7 +1377,6 @@
 	)
 	(label "MISO"
 		(at 215.9 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1389,7 +1387,6 @@
 	)
 	(label "SD_CSn"
 		(at 74.93 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1400,7 +1397,6 @@
 	)
 	(label "SD_MOSI"
 		(at 163.83 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1411,7 +1407,6 @@
 	)
 	(label "SD_CLK"
 		(at 74.93 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1422,7 +1417,6 @@
 	)
 	(label "SD_CSn"
 		(at 215.9 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1433,7 +1427,6 @@
 	)
 	(label "SD_MISO"
 		(at 163.83 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1444,7 +1437,6 @@
 	)
 	(label "CLK"
 		(at 215.9 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1455,7 +1447,6 @@
 	)
 	(label "SD_MOSI"
 		(at 74.93 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1466,7 +1457,6 @@
 	)
 	(label "MOSI"
 		(at 215.9 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1477,7 +1467,6 @@
 	)
 	(label "SD_CLK"
 		(at 163.83 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1489,7 +1478,6 @@
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 226.06 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1501,7 +1489,6 @@
 	(hierarchical_label "CLK"
 		(shape input)
 		(at 226.06 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1513,7 +1500,6 @@
 	(hierarchical_label "MISO"
 		(shape output)
 		(at 226.06 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1522,10 +1508,9 @@
 		)
 		(uuid "41dd4fa6-3175-449b-bddb-830571d4db3d")
 	)
-	(hierarchical_label "CSn"
+	(hierarchical_label "SD_CSn"
 		(shape input)
 		(at 226.06 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1544,7 +1529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "148c68b1-8bb9-4b7e-a917-ee9e1d641aa7")
-		(property "Reference" "C32"
+		(property "Reference" "C72"
 			(at 60.198 99.314 0)
 			(effects
 				(font
@@ -1598,7 +1583,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661"
-					(reference "C32")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "627a0ff9-28f7-4f38-a456-a17f877a2dd7")
-		(property "Reference" "R48"
+		(property "Reference" "R128"
 			(at 80.01 83.82 90)
 			(effects
 				(font
@@ -1796,7 +1781,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661"
-					(reference "R48")
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -1812,7 +1797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a77bd2d-446e-40f4-a91e-450ca54fa6b5")
-		(property "Reference" "C33"
+		(property "Reference" "C73"
 			(at 69.088 99.314 0)
 			(effects
 				(font
@@ -1866,7 +1851,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661"
-					(reference "C33")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -1880,10 +1865,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7566c34-aa13-423c-bcad-fae5b9a894ab")
-		(property "Reference" "J5"
-			(at 111.125 78.74 0)
+		(property "Reference" "J4"
+			(at 110.49 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1875,7 @@
 			)
 		)
 		(property "Value" "104031-0811"
-			(at 111.125 81.28 0)
+			(at 110.49 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +1945,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 54.61 87.63 0)
 			(effects
 				(font

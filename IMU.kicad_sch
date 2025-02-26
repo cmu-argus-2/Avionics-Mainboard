@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2024-11-19")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -2084,19 +2084,8 @@
 		)
 		(uuid "23ecd56d-ae55-4be4-93c8-cf5ade6dea19")
 	)
-	(text "TODO: Determine Fuse value"
-		(exclude_from_sim no)
-		(at 50.546 79.756 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "bdf3a11a-c365-453d-b7db-6e315ab697ff")
-	)
 	(label "IMU_RSTn"
 		(at 173.99 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2096,6 @@
 	)
 	(label "CAP"
 		(at 175.26 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2118,7 +2106,6 @@
 	)
 	(label "IMU_SDA"
 		(at 173.99 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2116,6 @@
 	)
 	(label "IMU_SCL"
 		(at 173.99 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2141,7 +2127,6 @@
 	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 248.92 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2153,7 +2138,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 248.92 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2301,7 +2285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e774d90-d5ae-4d48-a867-62a5c84bc259")
-		(property "Reference" "C22"
+		(property "Reference" "C81"
 			(at 214.122 90.424 0)
 			(effects
 				(font
@@ -2355,7 +2339,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "C22")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm"
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -2575,8 +2559,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6320b880-5013-48ff-8e35-b00ac4627790")
-		(property "Reference" "U5"
-			(at 139.7 68.58 0)
+		(property "Reference" "U20"
+			(at 139.7 69.342 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2584,7 +2568,7 @@
 			)
 		)
 		(property "Value" "BNO086"
-			(at 139.7 71.12 0)
+			(at 139.7 71.882 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2707,7 +2691,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "U5")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -2722,7 +2706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6884c1ac-1c9e-4086-90c9-10418a641c10")
-		(property "Reference" "C18"
+		(property "Reference" "C77"
 			(at 84.836 90.424 0)
 			(effects
 				(font
@@ -2776,7 +2760,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "C18")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e632a25-7ffa-4d85-97bc-cb2f66e0820f")
-		(property "Reference" "F4"
+		(property "Reference" "F3"
 			(at 72.39 70.612 0)
 			(effects
 				(font
@@ -2799,7 +2783,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "250mA"
 			(at 72.39 74.168 0)
 			(effects
 				(font
@@ -2807,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 72.39 72.39 0)
 			(effects
 				(font
@@ -2843,7 +2827,7 @@
 		(instances
 			(project ""
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "F4")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -2858,12 +2842,13 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b331fc1-e1c9-48f0-9c7d-5c4bc137936b")
-		(property "Reference" "R54"
-			(at 94.742 84.074 90)
+		(property "Reference" "R146"
+			(at 96.774 84.074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "10k"
@@ -2910,7 +2895,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "R54")
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -2990,7 +2975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99c1ba6c-9fbf-422e-9f16-3a64411f59be")
-		(property "Reference" "C19"
+		(property "Reference" "C78"
 			(at 93.472 90.424 0)
 			(effects
 				(font
@@ -3044,7 +3029,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "C19")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -3189,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c89b9c21-d1ab-4e41-ae01-1a1cf3e8ca52")
-		(property "Reference" "C21"
+		(property "Reference" "C80"
 			(at 189.484 90.424 0)
 			(effects
 				(font
@@ -3243,7 +3228,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "C21")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84c2bd6-5ab9-47a1-a65a-6eac455e7937")
-		(property "Reference" "R33"
+		(property "Reference" "R147"
 			(at 208.28 123.444 0)
 			(effects
 				(font
@@ -3312,7 +3297,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "R33")
+					(reference "R147")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a356eb-9e2e-49ef-84ff-553488f3c976")
-		(property "Reference" "C20"
+		(property "Reference" "C79"
 			(at 183.896 125.984 0)
 			(effects
 				(font
@@ -3446,7 +3431,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72"
-					(reference "C20")
+					(reference "C79")
 					(unit 1)
 				)
 			)

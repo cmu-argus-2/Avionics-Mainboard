@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -116,8 +116,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
-        "min_connection": 0.1524,
+        "min_clearance": 0.1397,
+        "min_connection": 0.127,
         "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
@@ -435,8 +435,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -457,17 +457,17 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1397,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.128016,
         "line_style": 0,
         "microvia_diameter": 0.6096,
         "microvia_drill": 0.3048,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.127,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
@@ -673,6 +673,10 @@
     [
       "21e71e76-dfb6-4af2-84cc-797c0fdddabe",
       "MCU_IO"
+    ],
+    [
+      "dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5",
+      "SPI Protection2"
     ],
     [
       "db13e207-3bf8-4f4b-b8f6-f29c20baff72",
