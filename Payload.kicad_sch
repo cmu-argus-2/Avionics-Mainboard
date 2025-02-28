@@ -1272,12 +1272,6 @@
 		(uuid "21a8cb4b-e5fc-43fe-842f-4881c26468f9")
 	)
 	(junction
-		(at 97.79 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35316857-ac6c-4745-97f9-30b72c99e41a")
-	)
-	(junction
 		(at 97.79 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1346,6 +1340,16 @@
 			(type default)
 		)
 		(uuid "0265dc40-8c4b-4853-9b07-f9b79715a243")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 97.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0407bfe8-a0fc-4e17-8721-9128e6800164")
 	)
 	(wire
 		(pts
@@ -1589,16 +1593,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 97.79 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fd6286-88c5-4a89-87a0-875d4c48b81d")
-	)
-	(wire
-		(pts
 			(xy 116.84 72.39) (xy 118.11 72.39)
 		)
 		(stroke
@@ -1646,16 +1640,6 @@
 			(type default)
 		)
 		(uuid "6262398f-66c9-4594-b1b7-c00e65e6de7a")
-	)
-	(wire
-		(pts
-			(xy 97.79 59.69) (xy 97.79 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cc4737-0dda-4aab-b9a2-6bb0e62a2b41")
 	)
 	(wire
 		(pts
@@ -1899,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 59.69) (xy 101.6 59.69)
+			(xy 77.47 59.69) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2071,7 @@
 		)
 		(uuid "fd84d68e-7758-4a93-b1d5-63dab402c74b")
 	)
-	(text "ILimit_Min = 28955 / R^1.075 = 0.150 mA\nIlimit_Typ = 30321 / R^1.055 = 0.197 mA\nILimit_Max = 31033 / R^1.031 = 0.264 mA"
+	(text "ILimit_Min = 28955 / R^1.075 = 0.150 A\nIlimit_Typ = 30321 / R^1.055 = 0.197 A\nILimit_Max = 31033 / R^1.031 = 0.264 A"
 		(exclude_from_sim no)
 		(at 136.652 89.154 0)
 		(effects
@@ -2401,6 +2385,71 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 97.79 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c95d4a7-6a34-4990-b7a4-66695bf33ed3")
+		(property "Reference" "#SUPPLY8"
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_M"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "828877d4-48f7-4b4d-a3a2-1fbb85dc2494")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8"
+					(reference "#SUPPLY8")
 					(unit 1)
 				)
 			)
@@ -3009,7 +3058,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "728f0838-e5c6-4859-ba57-699f737742cb")
 		(property "Reference" "R121"
 			(at 135.89 141.224 0)

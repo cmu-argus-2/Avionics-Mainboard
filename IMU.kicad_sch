@@ -2051,6 +2051,16 @@
 		)
 		(uuid "ff0a9994-e5a3-4dae-8248-060a2f0c8f02")
 	)
+	(text "TODO: BNO085/6?"
+		(exclude_from_sim no)
+		(at 136.398 62.23 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "098090f4-8682-4717-9f49-70bc82c4eb54")
+	)
 	(text "0x4A"
 		(exclude_from_sim no)
 		(at 223.774 132.588 0)
@@ -2575,7 +2585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
+		(property "Footprint" "Argus-IC:BNO085"
 			(at 104.14 80.01 0)
 			(effects
 				(font

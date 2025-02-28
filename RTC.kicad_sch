@@ -1289,7 +1289,7 @@
 	)
 	(text "TODO: Add some way to do full component power cycle"
 		(exclude_from_sim no)
-		(at 145.542 130.556 0)
+		(at 149.86 129.032 0)
 		(effects
 			(font
 				(size 2.54 2.54)

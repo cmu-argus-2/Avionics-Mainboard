@@ -4551,16 +4551,6 @@
 		)
 		(uuid "79a15f7b-ddf5-4543-9f21-c7e94853b35e")
 	)
-	(text "TODO: add note back in on disconnect jumpers"
-		(exclude_from_sim no)
-		(at 83.566 169.672 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "7da7e2e4-3e8d-45ee-90c7-9fd9e2b6574a")
-	)
 	(text "\"VSYS\""
 		(exclude_from_sim no)
 		(at 73.406 147.574 90)
@@ -4572,7 +4562,7 @@
 		)
 		(uuid "808efc59-52d4-47d6-88ee-f6d909a150e1")
 	)
-	(text "DNP R25 to charge to 8.4V\nCharges to 8.2V by default"
+	(text "DNP R13 to charge to 8.4V\nCharges to 8.2V by default"
 		(exclude_from_sim no)
 		(at 164.084 93.98 0)
 		(effects

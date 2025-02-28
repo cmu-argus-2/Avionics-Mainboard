@@ -5036,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 132.08) (xy 138.43 132.08)
+			(xy 120.65 129.54) (xy 138.43 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 129.54) (xy 138.43 129.54)
+			(xy 120.65 132.08) (xy 138.43 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6786,7 +6786,7 @@
 		(uuid "82786a74-a9a1-41d8-b5d7-2148145ba342")
 	)
 	(label "Payload_EN"
-		(at 137.16 132.08 180)
+		(at 137.16 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6926,7 +6926,7 @@
 		(uuid "a7342aad-1876-49c3-95b6-f79bf978b601")
 	)
 	(label "Payload_FLT"
-		(at 137.16 129.54 180)
+		(at 137.16 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7087,7 +7087,7 @@
 	)
 	(hierarchical_label "Payload_EN"
 		(shape output)
-		(at 138.43 132.08 0)
+		(at 138.43 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7098,7 +7098,7 @@
 	)
 	(hierarchical_label "Payload_FLT"
 		(shape output)
-		(at 138.43 129.54 0)
+		(at 138.43 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)

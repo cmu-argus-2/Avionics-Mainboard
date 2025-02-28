@@ -2383,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 203.2 78.74)
+			(xy 203.2 69.85) (xy 203.2 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 218.44 78.74)
+			(xy 218.44 69.85) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 83.82) (xy 203.2 86.36)
+			(xy 203.2 77.47) (xy 203.2 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 208.28 76.2)
+			(xy 203.2 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 83.82) (xy 218.44 86.36)
+			(xy 218.44 77.47) (xy 218.44 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 223.52 76.2)
+			(xy 218.44 69.85) (xy 223.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3790,7 +3790,7 @@
 		)
 		(uuid "999067e1-5bed-4dfc-af29-ddfbcbeac97d")
 	)
-	(text "TODO: MAYBE CHANGE UVLO\nMAYBE CHANGE ILIM\n"
+	(text "TODO: MAYBE CHANGE UVLO"
 		(exclude_from_sim no)
 		(at 38.862 91.44 0)
 		(effects
@@ -3904,7 +3904,7 @@
 		(uuid "3d51aa6a-61a2-4164-9379-682c0795cefe")
 	)
 	(label "A0"
-		(at 208.28 76.2 180)
+		(at 208.28 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,7 +3934,7 @@
 		(uuid "528fbd30-a06f-4061-801f-97493f006e2e")
 	)
 	(label "A1"
-		(at 223.52 76.2 180)
+		(at 223.52 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4653,7 +4653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 86.36 0)
+		(at 218.44 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4661,7 +4661,7 @@
 		(dnp no)
 		(uuid "10c8680c-19e1-4812-a887-31dd0c34eb22")
 		(property "Reference" "#PWR0163"
-			(at 218.44 92.71 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 90.17 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 86.36 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 86.36 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 86.36 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 86.36 0)
+		(at 203.2 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7047,7 +7047,7 @@
 		(dnp no)
 		(uuid "8a513b05-ddd2-44a5-97c2-92279267fe55")
 		(property "Reference" "#PWR0155"
-			(at 203.2 92.71 0)
+			(at 203.2 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 90.17 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +7064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 86.36 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 86.36 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 86.36 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7769,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 81.28 0)
+		(at 218.44 74.93 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7778,7 +7778,7 @@
 		(dnp no)
 		(uuid "af55c881-f5fe-4824-8095-8312b6b815d5")
 		(property "Reference" "R88"
-			(at 215.392 80.518 0)
+			(at 215.392 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7786,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 215.9 82.296 0)
+			(at 215.9 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7794,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 218.44 81.28 0)
+			(at 218.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +7803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 81.28 0)
+			(at 218.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7812,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 81.28 0)
+			(at 218.44 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8231,7 +8231,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 203.2 81.28 0)
+		(at 203.2 74.93 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8240,7 +8240,7 @@
 		(dnp yes)
 		(uuid "cf4489e3-1214-4a83-bda5-826d03f87aff")
 		(property "Reference" "R86"
-			(at 200.152 80.518 0)
+			(at 200.152 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8248,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 200.66 82.296 0)
+			(at 200.66 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8256,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.2 81.28 0)
+			(at 203.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 81.28 0)
+			(at 203.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8274,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 203.2 81.28 0)
+			(at 203.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
