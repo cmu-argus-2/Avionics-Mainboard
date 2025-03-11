@@ -6,57 +6,37 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2024-11-19")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
 		(comment 3 "V. Rajesh")
 	)
 	(lib_symbols
-		(symbol "Argus-Connectors:1824543"
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 16.51 7.62 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "1824543"
-				(at 16.51 5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "1824543"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824543/pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 44 mm wide tape. Sample values available under SAMPLE SPT..."
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,80 +45,68 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7.85"
-				(at 16.51 -394.92 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at 16.51 -494.92 0)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1824543"
-				(at 16.51 -594.92 0)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "651-1824543"
-				(at 16.51 -694.92 0)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824543?qs=GaJ26EWJkZQ%252BT6XS11%252BqCA%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "1824543"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1824543/phoenix-contact"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1824543_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -148,9 +116,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "1"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,9 +134,170 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "2"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -184,9 +313,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "3"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -202,9 +331,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "4"
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,42 +341,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -392,50 +485,31 @@
 				)
 			)
 		)
-		(symbol "MainBoard:1824527"
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "D"
+				(at 0 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "1824527"
-				(at 16.51 5.08 0)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "1824527"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824527/pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 24 mm wide tape. Sample values available under SAMPLE SPT..."
-				(at 5.588 22.098 0)
+			(property "Footprint" ""
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -443,60 +517,47 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "7.85"
-				(at 16.51 -394.92 0)
+			(property "Datasheet" "~"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "651-1824527"
-				(at 16.51 -494.92 0)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824527?qs=GaJ26EWJkZQD9eY6ALrVBw%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Phoenix Contact"
-				(at 16.51 -694.92 0)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1824527"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
 					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1824527_0_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -505,12 +566,36 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "1824527_1_1"
+			(symbol "D_Zener_Small_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -526,9 +611,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -536,42 +621,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,102 +980,100 @@
 		)
 	)
 	(junction
-		(at 133.35 67.31)
+		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17976be5-0f9e-454e-80ea-b5afae94709e")
 	)
 	(junction
-		(at 133.35 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "470ecb03-555d-4a74-8ad6-0b1c9a0f1377")
-	)
-	(junction
-		(at 125.73 67.31)
+		(at 144.78 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4be21d64-819e-49e5-a8e0-0e67b924e0e8")
 	)
 	(junction
-		(at 123.19 74.93)
+		(at 142.24 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64239c5c-715d-48ab-a973-14f6e1b4f800")
 	)
 	(junction
-		(at 143.51 67.31)
+		(at 162.56 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f0fe20a-7e10-4615-a368-d4da7cdb7d04")
 	)
 	(junction
-		(at 151.13 67.31)
+		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3528d0a-2399-4c47-9f56-82a27d37b242")
+		(uuid "96801ee4-7f1d-4866-bf9d-0bd11d08e86f")
 	)
 	(junction
-		(at 123.19 76.2)
+		(at 191.77 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee3a6ef5-d2c9-4ba4-8d8c-a4a3c4b5b470")
+		(uuid "97302b44-8eb4-4b29-8b0b-9ddf9222e4be")
 	)
-	(no_connect
-		(at 172.72 114.3)
-		(uuid "0f33b910-bd74-4b7a-9c48-17003e1d4e16")
-	)
-	(no_connect
-		(at 151.13 114.3)
-		(uuid "13bee560-6518-4c5e-b28d-04fc70140155")
-	)
-	(no_connect
-		(at 170.18 114.3)
-		(uuid "2321bc01-b4a2-4e42-abf1-c320b4a7ed58")
-	)
-	(no_connect
-		(at 153.67 114.3)
-		(uuid "2961781d-7bb6-44cb-8ea6-c7efb79aa615")
-	)
-	(no_connect
-		(at 128.27 116.84)
-		(uuid "730b6ca2-8f27-4701-855a-877af735aef8")
-	)
-	(no_connect
-		(at 95.25 69.85)
-		(uuid "77e3877a-a802-473d-9c7a-e6b095882608")
-	)
-	(no_connect
-		(at 95.25 67.31)
-		(uuid "f037b086-5d60-4713-8ec2-f3ed4bd064d1")
-	)
-	(no_connect
-		(at 128.27 114.3)
-		(uuid "f16c75c0-223b-4658-a35e-74a9a8d380a9")
+	(junction
+		(at 162.56 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c8751a-40a8-45b8-be6a-460cfae4af83")
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 123.19 69.85)
+			(xy 191.77 86.36) (xy 191.77 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08576b6e-bef0-4c3b-b286-45507c25f251")
+		(uuid "0b198e7d-79c4-44a8-a9bf-86426a98c2f3")
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 123.19 104.14)
+			(xy 179.07 77.47) (xy 191.77 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "166ea025-b421-4860-9c6a-3f96e288e289")
+		(uuid "0cbdbccb-9683-49a7-91d8-fe4fc5fef4f2")
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 133.35 67.31)
+			(xy 162.56 85.09) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c0d2b6-93f5-4c84-9b8d-ffbdabda92c1")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11142054-3844-4231-a738-1e37d2321f51")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174f1dc9-f09a-4d41-9f58-66ac4243444b")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 152.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1036,27 +1083,37 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 67.31) (xy 125.73 67.31)
+			(xy 128.27 82.55) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0f2ea2-8b47-4a49-bf71-2af2a0304541")
+		(uuid "2c295b5c-ce9a-4895-b1fb-cc5386ad0173")
 	)
 	(wire
 		(pts
-			(xy 115.57 74.93) (xy 123.19 74.93)
+			(xy 128.27 77.47) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3def25f7-4baf-45a5-877b-468a13681f38")
+		(uuid "3b215dca-22e5-46c8-a1c8-30bf307a77fa")
 	)
 	(wire
 		(pts
-			(xy 143.51 77.47) (xy 143.51 74.93)
+			(xy 179.07 77.47) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c966a43-86c0-4a35-a4ee-50839d2071cc")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 162.56 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1123,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 88.9) (xy 118.11 88.9)
+			(xy 110.49 99.06) (xy 137.16 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 107.95 120.65)
+			(xy 142.24 101.6) (xy 142.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1086,17 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 170.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a55901-4bde-4097-bd34-9a410e928fb8")
-	)
-	(wire
-		(pts
-			(xy 133.35 74.93) (xy 133.35 76.2)
+			(xy 152.4 83.82) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1106,47 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 186.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d81cc2d-057f-4d19-a165-f7ff885f5be4")
-	)
-	(wire
-		(pts
-			(xy 115.57 72.39) (xy 125.73 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76361611-ccba-4ac1-ad53-136c8b79677a")
-	)
-	(wire
-		(pts
-			(xy 153.67 90.17) (xy 153.67 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764a7896-84b7-4832-866f-d2229a80fc7a")
-	)
-	(wire
-		(pts
-			(xy 153.67 90.17) (xy 170.18 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77bb9222-d484-482e-a16e-e52defe8f5e0")
-	)
-	(wire
-		(pts
-			(xy 133.35 69.85) (xy 133.35 67.31)
+			(xy 152.4 78.74) (xy 152.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1163,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 143.51 67.31)
+			(xy 176.53 80.01) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875384a2-6caf-4ebe-a367-b13d0c5c5ae2")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1183,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 157.48 67.31)
+			(xy 191.77 77.47) (xy 191.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9798bd10-94c6-4250-9b06-a262ce66d54c")
+	)
+	(wire
+		(pts
+			(xy 152.4 85.09) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c97327-0fdd-4467-9fd3-3fdb17f125fc")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1176,27 +1213,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 85.09) (xy 186.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99427f7-a904-4ee8-9481-df0c8ac8ec93")
-	)
-	(wire
-		(pts
-			(xy 133.35 76.2) (xy 133.35 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a25177-47ae-4f13-8f99-d62ff5cebf15")
-	)
-	(wire
-		(pts
-			(xy 125.73 67.31) (xy 125.73 72.39)
+			(xy 144.78 77.47) (xy 144.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1223,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 49.53) (xy 118.11 49.53)
+			(xy 110.49 59.69) (xy 137.16 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1216,17 +1233,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 151.13 67.31)
+			(xy 128.27 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9d9d9f0-a7eb-45dc-9f91-047b0120de49")
+		(uuid "b6c6f38a-e1df-4037-a138-0e60a090e630")
 	)
 	(polyline
 		(pts
-			(xy 91.44 88.9) (xy 91.44 49.53)
+			(xy 110.49 99.06) (xy 110.49 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1236,17 +1253,27 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 123.19 104.14)
+			(xy 142.24 85.09) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8424818-ec4f-4b24-8b1a-e2aba8bd4d50")
+		(uuid "c25fc580-77eb-4e74-8e36-f211edbd9f8c")
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 133.35 76.2)
+			(xy 128.27 85.09) (xy 142.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac336f0-e73f-4b13-9f5e-f244f051c869")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1283,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 143.51 67.31)
+			(xy 152.4 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +1293,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 123.19 74.93)
+			(xy 142.24 80.01) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1274,49 +1301,9 @@
 		)
 		(uuid "e57959f7-d7f8-4c7e-a4f8-7b17d348fe26")
 	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 172.72 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ff7ede-1c50-47e1-8a9e-3f0b03259470")
-	)
-	(wire
-		(pts
-			(xy 123.19 74.93) (xy 123.19 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf5d8c0-bca5-458d-a541-1147b062cb61")
-	)
-	(wire
-		(pts
-			(xy 151.13 67.31) (xy 151.13 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb8c49c3-e2b2-4947-ab78-db08cb17215d")
-	)
-	(wire
-		(pts
-			(xy 151.13 67.31) (xy 157.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edb362aa-406b-4b01-9882-8ce451f17d81")
-	)
 	(polyline
 		(pts
-			(xy 118.11 88.9) (xy 118.11 49.53)
+			(xy 137.16 99.06) (xy 137.16 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1324,41 +1311,29 @@
 		)
 		(uuid "eeca2439-2901-43ca-a03b-2a4ae9523066")
 	)
-	(wire
-		(pts
-			(xy 107.95 114.3) (xy 107.95 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff55d032-8911-43b1-bb68-f3eaa077d0e2")
-	)
 	(text "(Screw Terminals)"
 		(exclude_from_sim no)
-		(at 172.466 125.476 0)
+		(at 177.8 96.266 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
 			)
-			(justify right bottom)
 		)
 		(uuid "141d07fe-e3bb-418b-8c1e-e8d9030439cf")
 	)
-	(text "High Side Switches"
+	(text "High Side Switch"
 		(exclude_from_sim no)
-		(at 173.736 122.936 0)
+		(at 177.8 93.726 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
 			)
-			(justify right bottom)
 		)
 		(uuid "3de2f45e-b6bf-4fd8-8562-61d7d349a132")
 	)
 	(text "Low Side Switch"
 		(exclude_from_sim no)
-		(at 110.998 128.778 0)
+		(at 136.906 113.792 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -1369,7 +1344,7 @@
 	)
 	(text "(Screw Terminals)"
 		(exclude_from_sim no)
-		(at 109.982 131.318 0)
+		(at 135.89 116.332 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -1380,18 +1355,92 @@
 	)
 	(text "Battery\nTerminals"
 		(exclude_from_sim no)
-		(at 98.552 57.404 0)
+		(at 123.444 64.516 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify left bottom)
 		)
 		(uuid "ebf29f1f-3a14-4a34-9dff-b0afbe805772")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 123.19 80.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf8ff1a-e9bf-447a-bf0b-2ecea5ed2579")
+		(property "Reference" "J14"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "282834-4"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Connectors:TE_282834-4"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5b7559b-eba9-46e7-981a-3b93497f617c")
+		)
+		(pin "4"
+			(uuid "d78afe80-f69d-4f0a-b713-290862984de8")
+		)
+		(pin "3"
+			(uuid "9500b76b-980e-463b-b988-56d345baebc6")
+		)
+		(pin "1"
+			(uuid "d6947b38-0350-4f17-baa3-5b56cdac2b72")
+		)
+		(instances
+			(project ""
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
-		(at 143.51 77.47 0)
+		(at 162.56 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1399,7 +1448,7 @@
 		(dnp no)
 		(uuid "28a6b7ce-3145-48e7-bbab-e44ef541b35d")
 		(property "Reference" "#PWR0113"
-			(at 143.51 83.82 0)
+			(at 162.56 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1457,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 143.51 81.534 0)
+			(at 162.56 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 77.47 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 77.47 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1483,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 143.51 77.47 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,141 +1504,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MainBoard:1824527")
-		(at 107.95 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ce3c62b-cabd-430d-910e-b6ad51c65e67")
-		(property "Reference" "J11"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1824527"
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Argus-Connectors:1823638"
-			(at 124.46 209.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824527/pdf"
-			(at 124.46 309.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 24 mm wide tape. Sample values available under SAMPLE SPT..."
-			(at 113.538 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.85"
-			(at 124.46 509.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1824527"
-			(at 124.46 609.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824527?qs=GaJ26EWJkZQD9eY6ALrVBw%3D%3D"
-			(at 124.46 709.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 124.46 809.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1824527"
-			(at 124.46 909.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2872a838-e6fd-4c5c-8694-bde08d29519b")
-		)
-		(pin "1"
-			(uuid "527d5a15-aa14-4018-819a-5a2c935cb995")
-		)
-		(pin "3"
-			(uuid "c6bc3f42-8218-43f2-9e0b-5d51a2d59cb3")
-		)
-		(pin "4"
-			(uuid "2f6468a4-0615-4b48-aa9c-c30eecb4baff")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 133.35 72.39 0)
+		(at 152.4 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4193210d-d21a-419e-bbf2-18e9a5a0f4df")
-		(property "Reference" "C46"
-			(at 135.382 71.374 0)
+		(property "Reference" "C84"
+			(at 154.432 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,8 +1521,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 135.382 73.406 0)
+		(property "Value" "22u"
+			(at 154.432 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,8 +1530,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.35 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 72.39 0)
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1549,7 @@
 			)
 		)
 		(property "Description" "0.1uF +-10% 50V X7R 0603"
-			(at 133.35 72.39 0)
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1566,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "C46")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -1650,7 +1574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 120.65 0)
+		(at 142.24 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1658,7 +1582,7 @@
 		(dnp no)
 		(uuid "4417d41f-29fc-4352-b40e-b2176206315e")
 		(property "Reference" "#PWR0110"
-			(at 107.95 127 0)
+			(at 142.24 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 124.46 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 120.65 0)
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 120.65 0)
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 120.65 0)
+			(at 142.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,16 +1638,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 133.35 77.47 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 147.32 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "44ebaffe-5ba2-4bc6-aa66-e917bc3b62bb")
-		(property "Reference" "#PWR0111"
-			(at 133.35 83.82 0)
+		(uuid "4be8314e-963b-41b6-9c49-5872524acf5e")
+		(property "Reference" "J17"
+			(at 149.352 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "282834-2"
+			(at 149.098 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Argus-Connectors:TE_282834-2"
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,16 +1673,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
-			(at 133.35 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 77.47 0)
+		(property "Datasheet" "~"
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,17 +1682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 133.35 77.47 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,12 +1692,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "81ad0ba9-6de3-4376-b4a7-978bb3694a98")
+			(uuid "756a3401-d855-4b70-bdb8-3217554026c7")
+		)
+		(pin "2"
+			(uuid "b5eeab76-e0d6-4c40-97b3-72b2cf9fcbea")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "#PWR0111")
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 179.07 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c6b422a-90cc-4863-ad68-184b332a7d30")
+		(property "Reference" "J16"
+			(at 175.768 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "282834-2"
+			(at 171.958 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Argus-Connectors:TE_282834-2"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef76d037-99ec-48f8-9cfa-544a11673632")
+		)
+		(pin "2"
+			(uuid "e307c3da-8e7a-44e3-9f3d-6fb7f49b8af8")
+		)
+		(instances
+			(project ""
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1777,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 186.69 85.09 0)
+		(at 191.77 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1788,7 +1785,7 @@
 		(dnp no)
 		(uuid "59421d5d-03a6-4753-b9aa-bb0abd4b55a6")
 		(property "Reference" "#PWR0116"
-			(at 186.69 88.9 0)
+			(at 191.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1794,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 186.69 81.28 0)
+			(at 191.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 85.09 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 85.09 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 186.69 85.09 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +1842,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 157.48 64.77 0)
+		(at 162.56 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1853,7 +1850,7 @@
 		(dnp no)
 		(uuid "6724d2ee-b9e7-4624-b7bd-e78bb63502ff")
 		(property "Reference" "#PWR0114"
-			(at 157.48 68.58 0)
+			(at 162.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1859,7 @@
 			)
 		)
 		(property "Value" "VBATT"
-			(at 157.48 60.96 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 64.77 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 64.77 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 157.48 64.77 0)
+			(at 162.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,53 +1906,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Argus-Connectors:1824543")
-		(at 95.25 67.31 0)
+		(lib_id "Device:D_Zener_Small")
+		(at 191.77 81.28 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73a9a6bb-f157-4984-a877-a24ebd0065d5")
-		(property "Reference" "J10"
-			(at 105.41 59.69 0)
+		(uuid "91f80848-78fd-49b7-8256-2eaa18da6320")
+		(property "Reference" "D14"
+			(at 193.548 79.2479 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "1824543"
-			(at 105.41 62.23 0)
+		(property "Value" "10V"
+			(at 193.548 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Argus-Connectors:1823654"
-			(at 111.76 162.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824543/pdf"
-			(at 111.76 262.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 4, Number of rows: 1, Number of positions per row: 4, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 44 mm wide tape. Sample values available under SAMPLE SPT..."
-			(at 95.25 67.31 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 191.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,223 +1942,42 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.85"
-			(at 111.76 462.23 0)
+		(property "Datasheet" "~"
+			(at 191.77 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 111.76 562.23 0)
+		(property "Description" "Zener diode, small symbol"
+			(at 191.77 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1824543"
-			(at 111.76 662.23 0)
+		(property "Part" "SMAJ9.0AHR3G"
+			(at 200.66 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
-		)
-		(property "Mouser Part Number" "651-1824543"
-			(at 111.76 762.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824543?qs=GaJ26EWJkZQ%252BT6XS11%252BqCA%3D%3D"
-			(at 111.76 862.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "1824543"
-			(at 111.76 962.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1824543/phoenix-contact"
-			(at 111.76 1062.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b53d2651-d83c-496f-80d5-ace2536d4781")
-		)
-		(pin "5"
-			(uuid "e4471b15-9bc1-4b8a-9750-c8f30ec76976")
-		)
-		(pin "6"
-			(uuid "ad049936-d044-4bd8-a9e1-23c3e98cc38c")
 		)
 		(pin "1"
-			(uuid "2c057a09-9bd3-4cc3-b16e-71c067e62b0b")
+			(uuid "d2d14b3b-d681-419f-a89e-03e934de9530")
 		)
-		(pin "3"
-			(uuid "c83f1451-f7fd-4173-a0fd-87406c0ff762")
-		)
-		(pin "4"
-			(uuid "1b2c349e-a6f8-4bfa-b688-7d97d1987553")
+		(pin "2"
+			(uuid "3d653f0e-14b1-44a9-8145-536ec95ccf67")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MainBoard:1824527")
-		(at 172.72 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b2ef2a1-e1fe-4026-973e-5579ab7185a0")
-		(property "Reference" "J13"
-			(at 180.34 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1824527"
-			(at 177.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Argus-Connectors:1823638"
-			(at 77.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824527/pdf"
-			(at -22.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 24 mm wide tape. Sample values available under SAMPLE SPT..."
-			(at 194.818 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.85"
-			(at -222.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "651-1824527"
-			(at -322.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824527?qs=GaJ26EWJkZQD9eY6ALrVBw%3D%3D"
-			(at -422.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at -522.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1824527"
-			(at -622.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14eef059-c6d5-4733-ab6b-38d39453b15d")
-		)
-		(pin "1"
-			(uuid "34c2b22b-47b7-42b0-ac8b-a9a707cd0fe7")
-		)
-		(pin "3"
-			(uuid "516ad3e9-426a-430c-ad6e-e86289b06b20")
-		)
-		(pin "4"
-			(uuid "e30821bf-6e6c-4175-948c-caf942006b29")
-		)
-		(instances
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "J13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2187,15 +1985,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 143.51 72.39 0)
+		(at 162.56 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "be167fba-c218-40fd-a217-db9201a85ed3")
-		(property "Reference" "C47"
-			(at 145.542 71.374 0)
+		(property "Reference" "C85"
+			(at 164.592 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2002,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 145.542 73.406 0)
+			(at 164.592 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,8 +2010,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 143.51 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 72.39 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2029,7 @@
 			)
 		)
 		(property "Description" "22uF +-20% 10V X5R"
-			(at 143.51 72.39 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,59 +2046,23 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "C47")
+					(reference "C85")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MainBoard:1824527")
-		(at 153.67 93.98 270)
+		(lib_id "power:GND")
+		(at 191.77 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dcc8abe0-be8f-46e4-8cf9-6118d6bf4b5f")
-		(property "Reference" "J12"
-			(at 161.29 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1824527"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Argus-Connectors:1823638"
-			(at 58.75 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1824527/pdf"
-			(at -41.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block, nominal current: 13.5 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SPT 1,5/..-H-SMD, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: SMD soldering, conductor/PCB connection direction: 0 ?, color: black, Pin layout: Linear pad geometry, Solder pin [P]: 2 mm, type of packaging: 24 mm wide tape. Sample values available under SAMPLE SPT..."
-			(at 175.768 99.568 0)
+		(uuid "c3de3211-6bfd-4b11-8d9d-8d868ad46212")
+		(property "Reference" "#PWR0172"
+			(at 191.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,72 +2070,48 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.85"
-			(at -241.25 110.49 0)
+		(property "Value" "GND"
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "651-1824527"
-			(at -341.25 110.49 0)
+		(property "Footprint" ""
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1824527?qs=GaJ26EWJkZQD9eY6ALrVBw%3D%3D"
-			(at -441.25 110.49 0)
+		(property "Datasheet" ""
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at -541.25 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Part_Number" "1824527"
-			(at -641.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "017af898-a689-42a9-bbec-18ddc79183cc")
 		)
 		(pin "1"
-			(uuid "84130b5b-fc2e-412d-850d-2bd3f47c8f65")
-		)
-		(pin "3"
-			(uuid "6eabf0c4-1169-4dd4-939a-6b8e70484848")
-		)
-		(pin "4"
-			(uuid "fd79b2b7-7d4e-4447-a3fb-bbd39618ae99")
+			(uuid "1603eed5-4dce-4c09-a2ac-b0fe935ff5c4")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/9c9d9468-b4b2-4446-8643-65a41782778e"
-					(reference "J12")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
