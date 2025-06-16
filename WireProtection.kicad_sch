@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "46732fe3-c2cb-4924-bcb7-2c09a49a8736")
 	(paper "A4")
 	(title_block
@@ -15,7 +15,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -88,7 +90,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -100,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -149,10 +151,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Q_Dual_NMOS_S1G1D2S2G2D1"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -220,18 +225,6 @@
 			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -244,7 +237,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -268,34 +273,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -326,6 +307,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -350,59 +388,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -439,8 +426,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -477,49 +500,34 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -618,10 +626,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:MBT2222ADW1T1"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -699,10 +710,10 @@
 			(symbol "MBT2222ADW1T1_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0) (xy -2.54 0)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -723,7 +734,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.635 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -735,26 +746,14 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -768,26 +767,20 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "MBT2222ADW1T1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
+			)
+			(symbol "MBT2222ADW1T1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -824,8 +817,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "MBT2222ADW1T1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -862,31 +891,18 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -977,6 +993,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1481,7 +1498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19ec2ca3-d005-4898-8044-af440556490b")
-		(property "Reference" "Q5"
+		(property "Reference" "Q14"
 			(at 146.304 110.49 0)
 			(effects
 				(font
@@ -1577,27 +1594,27 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q11")
+					(reference "Q12")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q13")
+					(reference "Q14")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q15")
+					(reference "Q16")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
@@ -1629,7 +1646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b3144b8-f56c-46da-9547-a547d33863ba")
-		(property "Reference" "Q4"
+		(property "Reference" "Q13"
 			(at 151.13 84.709 90)
 			(effects
 				(font
@@ -1663,7 +1680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 151.13 78.74 0)
 			(effects
 				(font
@@ -1729,27 +1746,27 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q12")
+					(reference "Q13")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q14")
+					(reference "Q15")
 					(unit 2)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
@@ -1780,7 +1797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4898661f-e286-4c2d-b955-62b07acce65f")
-		(property "Reference" "C54"
+		(property "Reference" "C62"
 			(at 160.274 113.284 0)
 			(effects
 				(font
@@ -1834,43 +1851,43 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "C54")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "C55")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "C56")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "C57")
+					(reference "C54")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "C64")
+					(reference "C62")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "C65")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "C75")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "C76")
+					(reference "C74")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "C82")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "C83")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -1885,7 +1902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cba452f-6534-4fcd-8cf4-04b29d1e9cbb")
-		(property "Reference" "R57"
+		(property "Reference" "R98"
 			(at 142.113 100.584 0)
 			(effects
 				(font
@@ -1963,19 +1980,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R137")
+					(reference "R127")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R143")
+					(reference "R133")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R151")
+					(reference "R140")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R157")
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -1990,7 +2007,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9347112e-dfb3-4ea9-a627-80f3d5a57e1c")
-		(property "Reference" "R59"
+		(property "Reference" "R100"
 			(at 144.78 131.064 90)
 			(effects
 				(font
@@ -2075,19 +2092,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R139")
+					(reference "R129")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R145")
+					(reference "R135")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R153")
+					(reference "R142")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R159")
+					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -2102,7 +2119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "944462c3-0dea-4bb8-b0ad-7c3ac3489ccb")
-		(property "Reference" "R58"
+		(property "Reference" "R99"
 			(at 158.623 103.124 0)
 			(effects
 				(font
@@ -2180,19 +2197,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R138")
+					(reference "R128")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R144")
+					(reference "R134")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R152")
+					(reference "R141")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R158")
+					(reference "R147")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9db0db7d-d5c6-4e98-bc34-95b8b90d9f38")
-		(property "Reference" "R56"
+		(property "Reference" "R97"
 			(at 139.7 84.836 90)
 			(effects
 				(font
@@ -2283,19 +2300,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R136")
+					(reference "R126")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R142")
+					(reference "R132")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R150")
+					(reference "R139")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R156")
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c62c8b23-ce8b-426d-a401-db936816aa88")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0176"
 			(at 157.48 127 0)
 			(effects
 				(font
@@ -2411,7 +2428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc42db9b-0ac1-4650-ba97-7c6a7f6f2380")
-		(property "Reference" "Q4"
+		(property "Reference" "Q13"
 			(at 151.13 100.838 90)
 			(effects
 				(font
@@ -2446,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 151.13 95.25 0)
 			(effects
 				(font
@@ -2512,27 +2529,27 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q6")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q12")
+					(reference "Q13")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q14")
+					(reference "Q15")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
@@ -2563,7 +2580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3f4305f-adcb-423e-a6d8-b97afca44d66")
-		(property "Reference" "R54"
+		(property "Reference" "R95"
 			(at 149.987 67.564 0)
 			(effects
 				(font
@@ -2641,19 +2658,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R134")
+					(reference "R124")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R140")
+					(reference "R130")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R148")
+					(reference "R137")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R154")
+					(reference "R143")
 					(unit 1)
 				)
 			)
@@ -2669,7 +2686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6af11ea-f808-4b0a-8d85-452d5fc2f5e8")
-		(property "Reference" "Q5"
+		(property "Reference" "Q14"
 			(at 131.064 105.41 0)
 			(effects
 				(font
@@ -2764,27 +2781,27 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q5")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q11")
+					(reference "Q12")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "Q13")
+					(reference "Q14")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "Q15")
+					(reference "Q16")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
@@ -2815,7 +2832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa1832f1-bbc4-44ac-914b-b2e2132092d9")
-		(property "Reference" "R55"
+		(property "Reference" "R96"
 			(at 158.623 73.914 0)
 			(effects
 				(font
@@ -2893,19 +2910,19 @@
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R135")
+					(reference "R125")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R141")
+					(reference "R131")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/78119d8f-72cc-42e3-aa87-c12b52c477b9"
-					(reference "R149")
+					(reference "R138")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4/ec96f119-4921-4ef6-adcf-d9378a123968"
-					(reference "R155")
+					(reference "R144")
 					(unit 1)
 				)
 			)

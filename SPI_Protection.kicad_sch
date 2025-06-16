@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "82ae1426-dc3e-4578-889c-ed8131e2691f")
 	(paper "A4")
 	(title_block
@@ -15,28 +15,30 @@
 	)
 	(lib_symbols
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -135,10 +137,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:MMBTA56"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -211,7 +216,7 @@
 			(symbol "MMBTA56_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -223,50 +228,38 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.905 -2.413) (xy 2.413 -1.905) (xy 1.397 -1.397) (xy 1.905 -2.413) (xy 1.905 -2.413)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(circle
@@ -280,11 +273,23 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 			)
 			(symbol "MMBTA56_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -293,24 +298,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -336,7 +323,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -567,7 +573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b1422f9-db67-4f00-ba1e-36143fe38ee1")
-		(property "Reference" "R129"
+		(property "Reference" "R119"
 			(at 113.03 87.376 90)
 			(effects
 				(font
@@ -619,11 +625,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R129")
-					(unit 1)
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "R123")
+					(reference "R119")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
@@ -642,7 +644,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7255bc40-0732-4fe1-87b6-675c90c2152f")
-		(property "Reference" "R133"
+		(property "Reference" "R123"
 			(at 173.99 105.41 90)
 			(effects
 				(font
@@ -694,11 +696,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R133")
-					(unit 1)
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "R127")
+					(reference "R123")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
@@ -797,12 +795,8 @@
 					(reference "Q18")
 					(unit 1)
 				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "Q17")
-					(unit 1)
-				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "Q16")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -817,7 +811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93aba8dd-5c71-42b3-8b48-169993241eaa")
-		(property "Reference" "R132"
+		(property "Reference" "R122"
 			(at 173.99 96.266 90)
 			(effects
 				(font
@@ -869,11 +863,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R132")
-					(unit 1)
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "R126")
+					(reference "R122")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
@@ -892,7 +882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be17a0f0-17c5-4fe4-83a9-bd79077e5466")
-		(property "Reference" "R131"
+		(property "Reference" "R121"
 			(at 173.99 87.376 90)
 			(effects
 				(font
@@ -944,11 +934,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R131")
-					(unit 1)
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "R125")
+					(reference "R121")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
@@ -967,7 +953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8f67f55-3518-4993-95bc-9080adc3f269")
-		(property "Reference" "R130"
+		(property "Reference" "R120"
 			(at 110.49 96.52 90)
 			(effects
 				(font
@@ -1019,11 +1005,7 @@
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R130")
-					(unit 1)
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/0c04e6a7-6d16-45e0-b82f-bf6f349905a8/dca4c2dc-4d01-4762-8a5d-b12bf5c24ee5"
-					(reference "R124")
+					(reference "R120")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
