@@ -2466,7 +2466,7 @@
 		)
 		(uuid "52eb897d-3f63-4507-af06-a74dd96a7d1c")
 	)
-	(text "Vout = 0.765 * (1 + R114 / R115)\nVout = 0.765 * (1 + 73.2k / 22.1k)\nVout - 3.298V"
+	(text "Vout = 0.765 * (1 + R35 / R36)\nVout = 0.765 * (1 + 73.2k / 22.1k)\nVout - 3.298V"
 		(exclude_from_sim no)
 		(at 116.84 136.906 0)
 		(effects
@@ -2488,7 +2488,7 @@
 		)
 		(uuid "78bf70bb-79bf-4b2f-922b-df3878eb76bb")
 	)
-	(text "Vout = 0.765 * (1 + R114 / R115)\nVout = 0.765 * (1 + 73.2k / 22.1k)\nVout - 3.298V"
+	(text "Vout = 0.765 * (1 + R25 / R26)\nVout = 0.765 * (1 + 73.2k / 22.1k)\nVout - 3.298V"
 		(exclude_from_sim no)
 		(at 112.268 68.326 0)
 		(effects
