@@ -616,6 +616,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844931"
+			(at 113.03 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb5c80ca-09d2-4ef2-af5f-b2c6160b0a9b")
 		)
@@ -640,7 +649,7 @@
 		(at 173.99 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "7255bc40-0732-4fe1-87b6-675c90c2152f")
@@ -680,6 +689,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 173.99 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta56.pdf"
+		(property "Datasheet" ""
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -762,16 +780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" ""
-			(at 120.65 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
+		(property "MPN" "C5354954"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -854,6 +863,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 173.99 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea55ad9a-f7b0-49a8-98b6-e4a301c05658")
 		)
@@ -925,6 +943,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 173.99 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54d03484-433f-4267-9374-263ced04a1c5")
 		)
@@ -989,6 +1016,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
+			(at 110.49 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)

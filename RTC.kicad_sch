@@ -1560,6 +1560,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C9866"
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cb37d750-a9a0-4de6-82e0-36a4e64f1891")
 		)
@@ -1931,6 +1940,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C5189234"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0c2c699-9e62-4907-92b6-bbde2f9f5d67")
 		)
@@ -2057,6 +2075,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 101.6 93.98 0)
 			(effects
 				(font

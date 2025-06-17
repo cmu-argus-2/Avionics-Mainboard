@@ -2224,6 +2224,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C17575002"
+			(at 229.87 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5bafba2-59fd-45bb-ac6e-6349a1ca2ce5")
 		)
@@ -2313,7 +2322,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2566,6 +2575,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C916325"
+			(at 119.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "789e1636-c0bc-4cbf-81d0-b3c070516fac")
 		)
@@ -2635,7 +2653,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1uF +-10% 50V X7R 0603"
+		(property "Description" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 148.59 92.71 0)
 			(effects
 				(font
@@ -2729,7 +2756,7 @@
 		(at 143.51 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "4be8314e-963b-41b6-9c49-5872524acf5e")
@@ -2798,7 +2825,7 @@
 		(at 180.34 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "4c6b422a-90cc-4863-ad68-184b332a7d30")
@@ -3177,6 +3204,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C17575002"
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5e8cab4-db4b-4ebb-86c4-07ce9d3d889b")
 		)
@@ -3458,6 +3494,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C17575002"
+			(at 180.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12772a13-148e-43b0-8019-758f5bbc55ea")
 		)
@@ -3521,7 +3566,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22uF +-20% 10V X5R"
+		(property "Description" ""
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -3550,7 +3604,7 @@
 		(at 229.87 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "bfed6bf0-1a2e-4c14-97a7-7cef3ab17237")

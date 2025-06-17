@@ -1544,32 +1544,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia USA Inc."
+		(property "MPN" "C3280240"
 			(at 165.1 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 165.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Proto" "BSS138DWQ-7"
-			(at 151.13 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -1842,6 +1823,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C161232"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b80d4f5b-5619-4b20-a8b9-02ad42c2b795")
 		)
@@ -1947,6 +1937,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 140.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f43307ee-bb3a-4939-bee0-983b78a0a3bc")
 		)
@@ -2003,7 +2002,7 @@
 		(at 144.78 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "9347112e-dfb3-4ea9-a627-80f3d5a57e1c")
@@ -2164,6 +2163,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C118142"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7848b3ab-f4e2-4048-b825-d7fe5f4b16da")
 		)
@@ -2260,6 +2268,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844802"
+			(at 139.7 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,6 +2642,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 151.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "717cb739-c7b2-44a0-a0cf-b6c149c7b39d")
 		)
@@ -2731,32 +2757,13 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia USA Inc."
+		(property "MPN" "C3280240"
 			(at 149.86 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 149.86 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Proto" "BSS138DWQ-7"
-			(at 135.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -2869,6 +2876,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
 			(at 157.48 74.93 0)
 			(effects
 				(font

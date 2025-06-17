@@ -3864,6 +3864,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484686"
+			(at 73.66 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b99bc8d-001f-4018-85ea-96376162353b")
 		)
@@ -3997,6 +4006,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484686"
+			(at 73.66 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9216e34-4a1b-4f87-af89-013e5704d322")
 		)
@@ -4067,6 +4085,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f16d353-71bc-4eed-a783-fd4c352704d2")
 		)
@@ -4128,6 +4155,15 @@
 			)
 		)
 		(property "Description" "22uF +-20% 10V X5R"
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 227.33 99.06 0)
 			(effects
 				(font
@@ -4350,6 +4386,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad1114a7-2d6f-4e1f-9b4b-c9abc21cab3a")
 		)
@@ -4417,34 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "U262-161N-4BVC11"
-			(at 49.53 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 52.2478 70.6882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "U262-161N-4BVC11"
-			(at 52.2478 70.6882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "U262-161N-4BVC11"
+		(property "MPN" "C3020560"
 			(at 49.53 95.25 0)
 			(effects
 				(font
@@ -4566,6 +4584,15 @@
 				)
 			)
 		)
+		(property "MPN" "C2214844"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5253079f-ee76-4b63-b084-917cc131de0a")
 		)
@@ -4627,6 +4654,15 @@
 			)
 		)
 		(property "Description" "22uF +-20% 10V X5R"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 236.22 99.06 0)
 			(effects
 				(font
@@ -4770,6 +4806,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30f14878-62c2-4b71-891d-aaf1b0f54407")
 		)
@@ -4831,6 +4876,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
+			(at 124.46 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,6 +5027,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3289459"
+			(at 204.47 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "27c2b79d-c10d-40df-ae36-3e34bc0c31d5")
 		)
@@ -5108,6 +5171,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C916325"
 			(at 41.91 142.24 0)
 			(effects
 				(font
@@ -5391,7 +5463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 269.24 86.36 0)
 			(effects
 				(font
@@ -5402,65 +5474,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 271.78 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 274.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 276.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 271.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Color" "Green"
-			(at 255.524 110.49 90)
+			(at 258.318 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5528,6 +5547,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C7519"
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -5679,6 +5707,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "C2214844"
+			(at 245.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5873,6 +5910,15 @@
 			)
 		)
 		(property "Description" "4.7uF +-20% 10V X5R"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3861036"
 			(at 116.84 99.06 0)
 			(effects
 				(font

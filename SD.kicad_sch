@@ -1796,6 +1796,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 80.01 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f264867a-7107-4a53-bf3b-fe98b3871fa6")
 		)
@@ -1866,6 +1875,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C307348"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "233b1b82-ae17-4a87-ac7f-a50b8d687ef9")
 		)
@@ -1925,6 +1943,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with two card detection pins"
+			(at 110.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C585350"
 			(at 110.49 100.33 0)
 			(effects
 				(font

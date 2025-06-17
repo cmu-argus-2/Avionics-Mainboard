@@ -5867,6 +5867,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3877267"
+			(at 128.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8898e9b4-ef2c-4f3e-888f-b97e622d8fd8")
 		)
@@ -6088,34 +6097,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 50.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844734"
 			(at 50.8 121.92 0)
 			(effects
 				(font
@@ -6256,34 +6238,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844363"
 			(at 50.8 53.34 0)
 			(effects
 				(font
@@ -6424,34 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844743"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -6724,6 +6652,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C843966"
+			(at 120.65 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30c62f58-c86e-4950-a61d-e615ed68476e")
 		)
@@ -6823,7 +6760,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "10m"
 			(at 222.25 39.37 0)
 			(effects
 				(font
@@ -6851,6 +6788,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 223.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C840621"
 			(at 223.52 38.1 0)
 			(effects
 				(font
@@ -6929,68 +6875,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 62.23 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 77.978 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 62.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 62.23 162.56 0)
+		(property "MPN" "C844931"
+			(at 82.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -7055,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 69.85 121.92 0)
 			(effects
 				(font
@@ -7064,34 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103J3GECAUTO"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-14102-1-ND"
-			(at 69.85 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C161232"
 			(at 69.85 121.92 0)
 			(effects
 				(font
@@ -7301,55 +7164,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 97.79 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 100.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 102.87 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 105.41 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 100.33 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -7362,15 +7182,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7499,7 +7310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -7508,34 +7319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103J3GECAUTO"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-14102-1-ND"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C161232"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -7870,6 +7654,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 234.95 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab668e7a-0ad9-4209-b3c9-f7133820b4f9")
 		)
@@ -7932,6 +7725,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -8162,6 +7964,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844915"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7dc3929-a005-4a90-bc60-f3c60c909244")
 		)
@@ -8223,7 +8034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 30.48 106.68 0)
 			(effects
 				(font
@@ -8232,34 +8043,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Taiyo Yuden"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "587-3473-1-ND"
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2803395"
 			(at 30.48 106.68 0)
 			(effects
 				(font
@@ -8524,7 +8308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -8533,34 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
-			(at 30.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Taiyo Yuden"
-			(at 30.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "587-3473-1-ND"
-			(at 30.48 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2803395"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -8640,7 +8397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 52.07 158.75 0)
 			(effects
 				(font
@@ -8651,65 +8408,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 54.61 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 57.15 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 59.69 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 54.61 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "Color" "Green"
-			(at 38.862 182.88 90)
+			(at 41.656 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 36.83 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8845,6 +8549,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C307348"
+			(at 180.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c327d2b5-df55-47e3-aaba-4e5d467d386c")
 		)
@@ -8908,42 +8621,6 @@
 			)
 		)
 		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 166.37 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 166.37 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ON Semiconductor"
-			(at 166.37 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 168.91 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
 			(at 166.37 173.99 0)
 			(effects
 				(font
@@ -9099,6 +8776,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1c42994-9a64-42bc-bdd9-0a1956722ae2")
 		)
@@ -9225,6 +8911,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -9616,6 +9311,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 175.26 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bedb54f-fca7-4d72-b2f1-56c56d084d8a")
 		)
@@ -9742,6 +9446,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C386084"
 			(at 100.33 38.1 0)
 			(effects
 				(font
@@ -9973,6 +9686,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 109.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53988d4f-ba33-423e-9748-359dc1ccca0f")
 		)
@@ -10098,6 +9820,15 @@
 		)
 		(property "Description" "10uF +-20% 10V X5R"
 			(at 176.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C386084"
+			(at 176.53 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,34 +10033,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844796"
 			(at 50.8 106.68 0)
 			(effects
 				(font
@@ -10407,6 +10111,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C843966"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b343c416-33a5-4f0e-b35c-3f1f5a491e4a")
 		)
@@ -10469,6 +10182,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
 			(at 182.88 165.1 0)
 			(effects
 				(font
@@ -10895,34 +10617,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 100.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 100.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 100.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C2479067"
 			(at 100.33 127 0)
 			(effects
 				(font
@@ -10992,6 +10687,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2214844"
 			(at 180.34 121.92 0)
 			(effects
 				(font
@@ -11070,68 +10774,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 65.278 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 49.53 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 49.53 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 49.53 162.56 0)
+		(property "MPN" "C844931"
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -11196,6 +10844,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2803395"
 			(at 201.93 38.1 0)
 			(effects
 				(font
@@ -11368,7 +11025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "10m"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -11396,6 +11053,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C840621"
 			(at 223.52 106.68 0)
 			(effects
 				(font
@@ -11539,68 +11205,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 16.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 16.51 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 32.258 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 16.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 16.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 16.51 162.56 0)
+		(property "MPN" "C2479067"
+			(at 36.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -11671,33 +11281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "SPM5030T-3R3M-HZ"
-			(at 186.69 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "TAI-TECH"
-			(at 186.69 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HPC5040NF-3R3MTH"
-			(at 184.15 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "HPC5040NF-3R3MTH"
+		(property "MPN" "C518955"
 			(at 186.69 33.02 90)
 			(effects
 				(font
@@ -11909,6 +11493,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2214844"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "361fa819-faff-4241-96bd-366d97c491b7")
 		)
@@ -12043,34 +11636,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 100.33 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 100.33 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 100.33 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C237792"
 			(at 100.33 140.97 0)
 			(effects
 				(font
@@ -12149,34 +11715,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 88.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 88.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 88.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C2091072"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -12255,6 +11794,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C402995"
+			(at 251.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5df6269-6d16-4b1c-b194-a7c8bacb57e4")
 		)
@@ -12316,6 +11864,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3877267"
 			(at 128.27 53.34 0)
 			(effects
 				(font
@@ -12449,6 +12006,15 @@
 		)
 		(property "Description" "3.3nF +-10% 100V X7R 0603"
 			(at 279.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3877267"
+			(at 279.4 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,6 +12217,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844923"
+			(at 170.18 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "817d08aa-8588-4d21-9c15-274d2eefc85d")
 		)
@@ -12712,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" ""
 			(at 39.37 38.1 0)
 			(effects
 				(font
@@ -12721,34 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 39.37 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM32EC71E226KE36K"
-			(at 39.37 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
-			(at 39.37 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2214844"
 			(at 39.37 38.1 0)
 			(effects
 				(font
@@ -13079,6 +12627,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C386084"
 			(at 100.33 106.68 0)
 			(effects
 				(font
@@ -13441,6 +12998,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C118142"
+			(at 172.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c609b86-a868-4e89-8ef2-59b6ede9fdf4")
 		)
@@ -13510,6 +13076,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 234.95 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4a4c5d3-ac05-4ffa-a565-ccf4631a9fac")
 		)
@@ -13570,6 +13145,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 265.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
 			(at 265.43 64.77 0)
 			(effects
 				(font
@@ -13834,6 +13418,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 203.2 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
+			(at 203.2 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,42 +14093,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 154.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ON Semiconductor"
-			(at 154.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 158.75 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
-			(at 154.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36ba4fd7-8dcd-49e9-9553-3cce66d1ede8")
 		)
@@ -14617,6 +14174,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2803395"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35f1a17f-88cd-4096-b85a-e15fcf804128")
 		)
@@ -14686,34 +14252,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-TPS259620DDATCT-ND"
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS259620DDAT"
+		(property "MPN" "C2155774"
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -14901,6 +14440,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 175.26 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25843832-5a3a-4eaf-8a85-9ed582b835a9")
 		)
@@ -14962,6 +14510,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844759"
 			(at 120.65 53.34 0)
 			(effects
 				(font
@@ -15039,6 +14596,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844759"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2848ba70-12d8-4c9a-a81d-e2d092da3e5b")
 		)
@@ -15099,6 +14665,15 @@
 		)
 		(property "Description" "3.3nF +-10% 100V X7R 0603"
 			(at 279.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3877267"
+			(at 279.4 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15239,6 +14814,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C307348"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd3692c9-a8e5-4c0e-9f43-60c98d0d1a9c")
 		)
@@ -15301,6 +14885,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
 			(at 266.7 132.08 0)
 			(effects
 				(font
@@ -15441,33 +15034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "SPM5030T-3R3M-HZ"
-			(at 186.69 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "TAI-TECH"
-			(at 186.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "HPC5040NF-3R3MTH"
-			(at 184.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "HPC5040NF-3R3MTH"
+		(property "MPN" "C518955"
 			(at 186.69 101.6 90)
 			(effects
 				(font
@@ -15782,6 +15349,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C843966"
+			(at 152.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de720621-27e2-48bb-a1e0-8454131314fa")
 		)
@@ -16046,6 +15622,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2803395"
+			(at 193.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e416279e-f6d9-4006-978e-5b887926a06b")
 		)
@@ -16116,68 +15701,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 29.21 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 29.21 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 44.958 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 29.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 29.21 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 29.21 162.56 0)
+		(property "MPN" "C2479067"
+			(at 49.53 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -16317,55 +15846,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 85.09 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 87.63 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 90.17 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 92.71 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16378,15 +15864,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16450,7 +15927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" ""
 			(at 39.37 106.68 0)
 			(effects
 				(font
@@ -16459,34 +15936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 39.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM32EC71E226KE36K"
-			(at 39.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
-			(at 39.37 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2214844"
 			(at 39.37 106.68 0)
 			(effects
 				(font
@@ -16708,55 +16158,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 64.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 67.31 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 69.85 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 72.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 67.31 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -16769,15 +16176,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 49.53 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16849,34 +16247,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-TPS259620DDATCT-ND"
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 73.66 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS259620DDAT"
+		(property "MPN" "C2155774"
 			(at 73.66 38.1 0)
 			(effects
 				(font

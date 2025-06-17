@@ -1113,17 +1113,6 @@
 		)
 		(uuid "2f0196d6-ed15-4022-bec5-96b5bd4409e5")
 	)
-	(text "TODO: MAYBE SWAP I2C ON Z BOARDS"
-		(exclude_from_sim no)
-		(at 44.958 184.404 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "3d59493f-55df-4280-a3ba-589ed91f2676")
-	)
 	(text "Jetson"
 		(exclude_from_sim no)
 		(at 104.648 26.924 0)
@@ -3706,6 +3695,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C17575002"
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "894cf7e8-f416-4541-8419-f34f63290b3a")
 		)
@@ -3770,6 +3768,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C17575002"
 			(at 224.79 57.15 0)
 			(effects
 				(font
@@ -4010,7 +4017,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 46.99 94.488 0)
 			(effects
 				(font
@@ -4170,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 199.39 94.488 0)
 			(effects
 				(font
@@ -4197,6 +4204,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -4851,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 97.79 94.488 0)
 			(effects
 				(font
@@ -4878,6 +4894,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -5011,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 46.99 143.764 0)
 			(effects
 				(font
@@ -5038,6 +5063,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 46.99 157.48 0)
 			(effects
 				(font
@@ -5171,7 +5205,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 46.99 34.798 0)
 			(effects
 				(font
@@ -5198,6 +5232,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 46.99 48.26 0)
 			(effects
 				(font
@@ -5331,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 97.79 34.798 0)
 			(effects
 				(font
@@ -5358,6 +5401,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -6245,6 +6297,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C17575002"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dca94db1-ca3e-43bb-8323-2a81d2b2cfc6")
 		)
@@ -6346,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 148.59 94.742 0)
 			(effects
 				(font
@@ -6373,6 +6434,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 148.59 107.95 0)
 			(effects
 				(font
@@ -6571,7 +6641,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 97.79 143.764 0)
 			(effects
 				(font
@@ -6598,6 +6668,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 97.79 157.48 0)
 			(effects
 				(font
@@ -7110,7 +7189,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e4cfd6ca-110f-48ad-8032-a3eb6bf4c11b")
@@ -7321,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Value" "1-84952-0"
+		(property "Value" "522711069"
 			(at 148.59 34.798 0)
 			(effects
 				(font
@@ -7348,6 +7427,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C588180"
 			(at 148.59 48.26 0)
 			(effects
 				(font
@@ -7601,7 +7689,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f4553eef-8317-4271-b99c-48306e013024")
@@ -7669,7 +7757,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f9400fd6-8838-4788-ac5f-a475340ca320")

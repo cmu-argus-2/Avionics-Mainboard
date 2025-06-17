@@ -4424,34 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C2479067"
 			(at 100.33 60.96 0)
 			(effects
 				(font
@@ -4531,55 +4504,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 193.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 195.58 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 198.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 200.66 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -4592,15 +4522,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4932,6 +4853,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f198a72b-9852-48ff-9a85-df6ac0fffcc9")
 		)
@@ -5135,6 +5065,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C403153"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "636cd85c-b822-4b8b-8aad-bab6e08d7bcc")
 		)
@@ -5204,34 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-TPS259620DDATCT-ND"
-			(at 64.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 64.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 64.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS259620DDAT"
+		(property "MPN" "C2155774"
 			(at 64.77 44.45 0)
 			(effects
 				(font
@@ -5396,66 +5308,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 168.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "C844931"
 			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 184.658 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 168.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 168.91 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 168.91 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -5531,68 +5389,12 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 157.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 157.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 173.228 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 157.48 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 157.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 157.48 68.58 0)
+		(property "MPN" "C2479067"
+			(at 177.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -5628,7 +5430,7 @@
 				)
 			)
 		)
-		(property "Value" "E22-900M30S"
+		(property "Value" "E22-400M30S"
 			(at 81.28 115.316 0)
 			(effects
 				(font
@@ -5663,34 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "RFM98PW"
-			(at 81.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "HopeRF"
-			(at 81.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RFM98PW"
-			(at 76.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "RFM98PW"
+		(property "MPN" "C411292"
 			(at 81.28 115.57 0)
 			(effects
 				(font
@@ -5893,6 +5668,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12cc0c10-f5f2-4fa7-a67b-a8ca4b3fe3ca")
 		)
@@ -5926,7 +5710,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 148.844 45.466 0)
 			(effects
 				(font
@@ -5954,6 +5738,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
 			(at 149.86 44.45 0)
 			(effects
 				(font
@@ -6153,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -6162,34 +5955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C103J3GECAUTO"
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-14102-1-ND"
-			(at 60.96 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C161232"
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -6463,6 +6229,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48a04e05-77fa-4b44-9777-5e2bbd3769c4")
 		)
@@ -6619,34 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844796"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -6846,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 21.59 44.45 0)
 			(effects
 				(font
@@ -6855,34 +6603,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
-			(at 21.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Taiyo Yuden"
-			(at 21.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "587-3473-1-ND"
-			(at 21.59 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2803395"
 			(at 21.59 44.45 0)
 			(effects
 				(font
@@ -6925,7 +6646,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01R"
+		(property "Value" "10m"
 			(at 177.8 45.466 0)
 			(effects
 				(font
@@ -6953,6 +6674,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C840621"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -7184,6 +6914,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 189.23 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "399c5ec1-1469-4d13-b709-87f60322495c")
 		)
@@ -7316,6 +7055,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3877267"
+			(at 233.68 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfcfd55a-0e41-4446-8ea4-a00cc4e137c9")
 		)
@@ -7386,34 +7134,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 80.01 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C278625"
 			(at 80.01 59.69 0)
 			(effects
 				(font
@@ -7702,7 +7423,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10uF +-20% 10V X5R"
+		(property "Description" ""
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2214844"
 			(at 106.68 143.51 0)
 			(effects
 				(font
@@ -7782,55 +7512,12 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
+		(property "MPN" "C2909774"
 			(at 204.47 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Lite-On"
-			(at 207.01 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 209.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 212.09 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Public" "False"
-			(at 207.01 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -7843,15 +7530,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7923,6 +7601,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 93.98 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c12ea30c-eb42-485a-90ee-8a0a21cd5879")
 		)
@@ -7983,6 +7670,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
 			(at 250.19 76.2 0)
 			(effects
 				(font
@@ -8060,6 +7756,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C386084"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a36566eb-4ddf-4dd7-aa91-c95917901bc0")
 		)
@@ -8129,34 +7834,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT604RCT-ND"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT604R"
+		(property "MPN" "C237792"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -8511,7 +8189,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "cf4489e3-1214-4a83-bda5-826d03f87aff")
@@ -8550,6 +8228,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
 			(at 234.95 76.2 0)
 			(effects
 				(font
@@ -8684,7 +8371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" ""
 			(at 30.48 44.45 0)
 			(effects
 				(font
@@ -8693,34 +8380,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM32EC71E226KE36K"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
-			(at 30.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
+		(property "MPN" "C2214844"
 			(at 30.48 44.45 0)
 			(effects
 				(font
@@ -8861,34 +8521,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 41.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Digi-Key"
-			(at 41.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Stackpole Electronics Inc"
-			(at 41.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF0603FT10K0"
+		(property "MPN" "C844734"
 			(at 41.91 59.69 0)
 			(effects
 				(font
@@ -9291,6 +8924,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2479067"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b8ec72b-7298-4946-b29c-8c6a64efa95f")
 		)
@@ -9353,6 +8995,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 57.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
 			(at 57.15 143.51 0)
 			(effects
 				(font
@@ -9623,36 +9274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "TPS7A4501DCQT"
-			(at 120.65 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 112.776 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS7A4501DCQT"
-			(at 120.65 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "TPS7A4501DCQT"
-			(at 120.65 76.708 0)
+		(property "MPN" "C2869558"
+			(at 125.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
