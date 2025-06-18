@@ -4071,10 +4071,6 @@
 		(at 120.65 93.98)
 		(uuid "bef4e527-bb1e-485b-91bc-cde9548c4767")
 	)
-	(no_connect
-		(at 120.65 99.06)
-		(uuid "c88fd1e7-3022-41e1-8011-f84f5af4e890")
-	)
 	(wire
 		(pts
 			(xy 203.2 120.65) (xy 203.2 123.19)
@@ -4464,6 +4460,16 @@
 			(type default)
 		)
 		(uuid "2d85124d-ccf5-4990-bc2d-9ce33003d3be")
+	)
+	(wire
+		(pts
+			(xy 120.65 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfd1e4d-cdc9-4a48-b0fa-cb3fa97741be")
 	)
 	(wire
 		(pts
@@ -5337,6 +5343,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 137.16) (xy 167.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a622d2-4130-4200-8fc7-261389eb9f9f")
+	)
+	(wire
+		(pts
 			(xy 38.1 182.88) (xy 36.83 182.88)
 		)
 		(stroke
@@ -5464,6 +5480,16 @@
 			(type default)
 		)
 		(uuid "957b179f-e640-4cb2-ba36-4ee76c2acfcb")
+	)
+	(wire
+		(pts
+			(xy 170.18 140.97) (xy 167.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cae5df-5768-405a-84e0-0c897c494e05")
 	)
 	(wire
 		(pts
@@ -5744,6 +5770,16 @@
 			(type default)
 		)
 		(uuid "b0c63629-42b8-40ae-82bd-e2821093faf4")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b189b7cc-6a97-4676-98cd-2c62c6debefc")
 	)
 	(wire
 		(pts
@@ -7085,6 +7121,16 @@
 		)
 		(uuid "cf4b575a-6cbb-4fbc-872a-0e5715bd4a95")
 	)
+	(label "Jetson_SD_REQ"
+		(at 137.16 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1f2e921-5c95-4ed4-8489-562265806c48")
+	)
 	(label "Jetson_EN"
 		(at 137.16 66.04 180)
 		(effects
@@ -7367,6 +7413,17 @@
 		)
 		(uuid "92af1e7f-a9b5-4ad3-b58a-4b449aa6705b")
 	)
+	(hierarchical_label "Jetson_SD_REQ"
+		(shape input)
+		(at 138.43 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98db1076-576a-4f71-aed8-0de34fc0dd63")
+	)
 	(hierarchical_label "3V3_P_FLT"
 		(shape input)
 		(at 138.43 165.1 0)
@@ -7542,6 +7599,17 @@
 			(justify left)
 		)
 		(uuid "d7d82a50-a59f-4154-96fc-449fe0bd18c3")
+	)
+	(hierarchical_label "Jetson_SD_REQ"
+		(shape input)
+		(at 170.18 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4bee92f-7a51-4c2a-9896-f600e5973494")
 	)
 	(hierarchical_label "UART0_RX"
 		(shape input)
@@ -8419,6 +8487,71 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 167.64 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c6db7bc-8e4b-4257-ab1c-5d06f37a73b0")
+		(property "Reference" "#PWR092"
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_P"
+			(at 167.64 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e6ad0c-0a84-449d-8088-9ef5da28e51e")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -9500,6 +9633,84 @@
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53fd2b64-daea-4ad7-b689-5f9280bb1024")
+		(property "Reference" "R149"
+			(at 168.91 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
+			(at 167.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1eb4b4e-9cd9-46bf-8714-2f1d044563c3")
+		)
+		(pin "1"
+			(uuid "c86e825f-52aa-49bf-bb1f-4cc048757048")
+		)
+		(instances
+			(project "Avionics-MainBoard"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/21e71e76-dfb6-4af2-84cc-797c0fdddabe"
+					(reference "R149")
 					(unit 1)
 				)
 			)

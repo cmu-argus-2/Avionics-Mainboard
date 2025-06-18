@@ -287,10 +287,10 @@
 		(uuid "ab7114d7-e80a-4932-8aaf-b9af09bd8052")
 	)
 	(junction
-		(at 88.9 231.14)
+		(at 88.9 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4089908-d546-4824-b644-93af584fac33")
+		(uuid "af74ea26-bb26-4535-9d12-0bc16f706c2a")
 	)
 	(junction
 		(at 83.82 156.21)
@@ -334,16 +334,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 226.06) (xy 91.44 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c3dd80-d918-4f13-b7ab-2ea1b74057ca")
-	)
-	(wire
-		(pts
 			(xy 66.04 139.7) (xy 91.44 139.7)
 		)
 		(stroke
@@ -372,16 +362,6 @@
 			(type default)
 		)
 		(uuid "0c17a487-9ca3-4d05-9c22-218f96bbd8b3")
-	)
-	(wire
-		(pts
-			(xy 88.9 228.6) (xy 88.9 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13832aad-67c5-4eb2-831f-5072b854f2cb")
 	)
 	(wire
 		(pts
@@ -470,7 +450,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 233.68) (xy 91.44 233.68)
+			(xy 88.9 236.22) (xy 91.44 236.22)
 		)
 		(stroke
 			(width 0)
@@ -488,6 +468,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "32db0e4d-6066-4296-b9cc-a3742a387920")
+	)
+	(wire
+		(pts
+			(xy 88.9 236.22) (xy 88.9 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331f0dc2-2faf-40a7-a092-60424d312d66")
 	)
 	(wire
 		(pts
@@ -534,6 +524,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 223.52) (xy 91.44 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44564ba9-784d-4c4c-a5b7-894b8febf993")
+	)
+	(wire
+		(pts
 			(xy 175.26 205.74) (xy 175.26 215.9)
 		)
 		(stroke
@@ -541,6 +541,16 @@
 			(type default)
 		)
 		(uuid "47324cef-70de-4e06-94c3-3bb9d33258c9")
+	)
+	(wire
+		(pts
+			(xy 88.9 233.68) (xy 88.9 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5e09ff-aaaf-450d-9216-ad79381b3c8d")
 	)
 	(wire
 		(pts
@@ -626,16 +636,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 213.36) (xy 91.44 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639f4c4c-1b02-49fb-a509-ec530701b4a5")
-	)
-	(wire
-		(pts
 			(xy 91.44 171.45) (xy 78.74 171.45)
 		)
 		(stroke
@@ -658,13 +658,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 215.9) (xy 91.44 215.9)
+			(xy 66.04 228.6) (xy 91.44 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72305ee2-8e0c-4880-ac15-92b91c3d4f7f")
+		(uuid "70dcc5ef-fd5a-4c7d-992b-683199392163")
 	)
 	(wire
 		(pts
@@ -675,6 +675,16 @@
 			(type default)
 		)
 		(uuid "72642123-3432-4ea1-8fa2-b00e6a8ddfbe")
+	)
+	(wire
+		(pts
+			(xy 66.04 215.9) (xy 91.44 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746289ba-8618-4d5f-9712-0e879ad9431c")
 	)
 	(wire
 		(pts
@@ -730,6 +740,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 213.36) (xy 91.44 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffd0a3f-59f1-4e96-86d7-7acb8a46ac11")
+	)
+	(wire
+		(pts
 			(xy 66.04 100.33) (xy 91.44 100.33)
 		)
 		(stroke
@@ -740,17 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 208.28) (xy 91.44 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b3499e-8b19-47c1-8c16-3c19e2cf7a12")
-	)
-	(wire
-		(pts
-			(xy 88.9 231.14) (xy 91.44 231.14)
+			(xy 88.9 233.68) (xy 91.44 233.68)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 228.6) (xy 88.9 228.6)
+			(xy 91.44 231.14) (xy 88.9 231.14)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +810,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 233.68) (xy 88.9 237.49)
+			(xy 66.04 218.44) (xy 91.44 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6c7ae0-815d-4d9d-b203-316821dc81e4")
+	)
+	(wire
+		(pts
+			(xy 88.9 233.68) (xy 88.9 236.22)
 		)
 		(stroke
 			(width 0)
@@ -862,6 +882,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 205.74) (xy 91.44 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af03417e-ed19-489a-99af-c0d626cd5d3d")
+	)
+	(wire
+		(pts
 			(xy 86.36 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -903,16 +933,6 @@
 			(color 255 153 0 1)
 		)
 		(uuid "c3c34bce-65ff-4124-9dfc-a60dcb431cbc")
-	)
-	(wire
-		(pts
-			(xy 66.04 210.82) (xy 91.44 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca097407-211f-47d2-b232-db76c8df15ce")
 	)
 	(wire
 		(pts
@@ -1001,13 +1021,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 220.98) (xy 91.44 220.98)
+			(xy 66.04 210.82) (xy 91.44 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2d67989-6e41-4c9d-b7d7-620d558b5cb2")
+		(uuid "ecd4807e-65d3-45b5-ba8d-5fbe1823e5ed")
 	)
 	(wire
 		(pts
@@ -1060,16 +1080,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "fca1cf4f-be52-449e-9831-1af8a9dece53")
-	)
-	(wire
-		(pts
-			(xy 88.9 231.14) (xy 88.9 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff457984-4c6b-4c38-b0e3-33dde07bb530")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1138,7 +1148,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 237.49 0)
+		(at 88.9 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1146,7 +1156,7 @@
 		(dnp no)
 		(uuid "40478029-3ee9-435a-8ccd-bad124209657")
 		(property "Reference" "#PWR075"
-			(at 88.9 243.84 0)
+			(at 88.9 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 241.3 0)
+			(at 88.9 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 237.49 0)
+			(at 88.9 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,7 +1182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 237.49 0)
+			(at 88.9 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 237.49 0)
+			(at 88.9 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1637,7 @@
 	)
 	(sheet
 		(at 40.64 29.21)
-		(size 25.4 208.28)
+		(size 25.4 211.328)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1651,7 +1661,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_IO.kicad_sch"
-			(at 40.64 238.0746 0)
+			(at 40.64 241.1226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1899,7 @@
 			)
 		)
 		(pin "Battery_ALERT" input
-			(at 66.04 208.28 0)
+			(at 66.04 210.82 0)
 			(uuid "70d046e9-c69a-40ce-92b8-a605b84bb5bd")
 			(effects
 				(font
@@ -1989,7 +1999,7 @@
 			)
 		)
 		(pin "COIL_EN" output
-			(at 66.04 220.98 0)
+			(at 66.04 223.52 0)
 			(uuid "55d19b73-da71-49bb-b04d-76465d2a97ed")
 			(effects
 				(font
@@ -1999,7 +2009,7 @@
 			)
 		)
 		(pin "RW_EN" output
-			(at 66.04 226.06 0)
+			(at 66.04 228.6 0)
 			(uuid "bea11065-b2c9-4935-8c42-a5bb4339c79a")
 			(effects
 				(font
@@ -2009,7 +2019,7 @@
 			)
 		)
 		(pin "HEATER0_ON" output
-			(at 66.04 213.36 0)
+			(at 66.04 215.9 0)
 			(uuid "89273791-bc39-449d-a1cc-5551e9cddd05")
 			(effects
 				(font
@@ -2019,7 +2029,7 @@
 			)
 		)
 		(pin "HEATER_ENABLE" output
-			(at 66.04 210.82 0)
+			(at 66.04 213.36 0)
 			(uuid "de89043b-abf4-4b46-a274-29e6ed6622c7")
 			(effects
 				(font
@@ -2029,8 +2039,18 @@
 			)
 		)
 		(pin "HEATER1_ON" output
-			(at 66.04 215.9 0)
+			(at 66.04 218.44 0)
 			(uuid "063c0289-60be-48b9-88c4-6ead16601dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Jetson_SD_REQ" input
+			(at 66.04 205.74 0)
+			(uuid "d87ad132-0882-4f64-9f6f-1703f3a3c3e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2068,7 @@
 	)
 	(sheet
 		(at 91.44 179.07)
-		(size 25.4 58.42)
+		(size 25.4 61.468)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2072,7 +2092,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 91.44 238.0746 0)
+			(at 91.44 241.1226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2141,7 @@
 			)
 		)
 		(pin "Battery_ALERT" output
-			(at 91.44 208.28 180)
+			(at 91.44 210.82 180)
 			(uuid "ec617478-c0ee-4377-bd56-d59a5b9000dc")
 			(effects
 				(font
@@ -2161,7 +2181,7 @@
 			)
 		)
 		(pin "COIL_EN" input
-			(at 91.44 220.98 180)
+			(at 91.44 223.52 180)
 			(uuid "00b182ba-76c5-441b-b751-306af31c335d")
 			(effects
 				(font
@@ -2171,7 +2191,7 @@
 			)
 		)
 		(pin "HEATER0_ON" input
-			(at 91.44 213.36 180)
+			(at 91.44 215.9 180)
 			(uuid "f339a1b7-8b8b-4598-bfe4-c28da0b6f8ec")
 			(effects
 				(font
@@ -2181,7 +2201,7 @@
 			)
 		)
 		(pin "HEATER1_ON" input
-			(at 91.44 215.9 180)
+			(at 91.44 218.44 180)
 			(uuid "f22b88b3-cf33-4268-bdf3-218172843527")
 			(effects
 				(font
@@ -2191,7 +2211,7 @@
 			)
 		)
 		(pin "HEATER_ENABLE" input
-			(at 91.44 210.82 180)
+			(at 91.44 213.36 180)
 			(uuid "7e1dba6b-f4b3-4220-841c-7b71af8efffc")
 			(effects
 				(font
@@ -2201,7 +2221,7 @@
 			)
 		)
 		(pin "RW_EN" input
-			(at 91.44 226.06 180)
+			(at 91.44 228.6 180)
 			(uuid "b031b328-a7f2-4510-8739-c19ad91c9cd6")
 			(effects
 				(font
@@ -2211,7 +2231,7 @@
 			)
 		)
 		(pin "RW_MOTOR_ALRM" output
-			(at 91.44 233.68 180)
+			(at 91.44 236.22 180)
 			(uuid "861a329b-cd89-48a4-acf0-bf16bbef3dd8")
 			(effects
 				(font
@@ -2221,7 +2241,7 @@
 			)
 		)
 		(pin "RW_MOTOR_FLT" output
-			(at 91.44 231.14 180)
+			(at 91.44 233.68 180)
 			(uuid "cdea123d-873e-41bd-8bbc-96a6d980eae7")
 			(effects
 				(font
@@ -2231,8 +2251,18 @@
 			)
 		)
 		(pin "RW_POWER_FLT" output
-			(at 91.44 228.6 180)
+			(at 91.44 231.14 180)
 			(uuid "9d82d896-927f-42fd-9fce-041f73f33cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Jetson_SD_REQ" output
+			(at 91.44 205.74 180)
+			(uuid "40810c48-ec30-4805-bd07-4e95518626b4")
 			(effects
 				(font
 					(size 1.27 1.27)

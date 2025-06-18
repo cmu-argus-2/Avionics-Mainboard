@@ -2411,14 +2411,14 @@
 		)
 		(uuid "294143f5-49ef-4652-9bed-6ad8ad0c8960")
 	)
-	(text "I2C1 ADDR"
+	(text "I2C1 ADDR\n0x41"
 		(exclude_from_sim no)
-		(at 243.078 133.858 0)
+		(at 225.552 135.128 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2b3c826b-d362-474a-a8dd-a4aac054ae86")
 	)
@@ -2443,17 +2443,6 @@
 			(justify left bottom)
 		)
 		(uuid "360b0cbc-c8b5-47c4-b32f-895b844e4d30")
-	)
-	(text "0x41"
-		(exclude_from_sim no)
-		(at 233.68 137.16 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify right bottom)
-		)
-		(uuid "455113a4-e5a7-45c7-9c61-9fe50066c566")
 	)
 	(text "Value is convenient,\nnot necessary. \n10K-80K would\nalso work for R29"
 		(exclude_from_sim no)
@@ -2521,17 +2510,6 @@
 		)
 		(uuid "86925758-ed8f-4206-b648-f1d90793cd1c")
 	)
-	(text "0x40"
-		(exclude_from_sim no)
-		(at 233.68 68.58 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify right bottom)
-		)
-		(uuid "86acfdc0-c226-4354-a9e6-3eb6106a385d")
-	)
 	(text "TPS259621 = Autoretry after thermal shutdown\nCard current limited to 1.0 A by R_ILM = 909 ohm\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.2 V"
 		(exclude_from_sim no)
 		(at 48.26 138.938 0)
@@ -2574,14 +2552,14 @@
 		)
 		(uuid "99295f73-22f0-4f02-b7ef-b80467bf922e")
 	)
-	(text "I2C1 ADDR"
+	(text "I2C1 ADDR\n0x40"
 		(exclude_from_sim no)
-		(at 243.078 65.278 0)
+		(at 225.552 68.58 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9a90417c-8301-4fea-8378-9695c7830087")
 	)
@@ -6838,7 +6816,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "2k7"
 			(at 83.82 173.228 0)
 			(effects
 				(font
@@ -6875,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C844931"
+		(property "MPN" "C237112"
 			(at 82.55 172.72 0)
 			(effects
 				(font
@@ -10737,7 +10715,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "2k7"
 			(at 71.12 173.228 0)
 			(effects
 				(font
@@ -10774,7 +10752,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C844931"
+		(property "MPN" "C237112"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -11288,6 +11266,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field6" "SPM5030T-3R3M-HZ"
+			(at 186.69 30.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15041,6 +15027,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field6" "SPM5030T-3R3M-HZ"
+			(at 186.69 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -2262,14 +2262,14 @@
 		)
 		(uuid "0884a491-3756-4d99-8d90-28a757003fd0")
 	)
-	(text "I2C1 ADDR"
+	(text "I2C1 ADDR\n0x42"
 		(exclude_from_sim no)
-		(at 279.146 76.454 0)
+		(at 261.366 80.01 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "14a5e1e2-7bbf-4563-afcf-046d5888629f")
 	)
@@ -2294,17 +2294,6 @@
 			(justify bottom)
 		)
 		(uuid "489a122c-a72e-4e80-9d1d-a00a4c379715")
-	)
-	(text "0x42"
-		(exclude_from_sim no)
-		(at 269.494 80.01 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify right bottom)
-		)
-		(uuid "5662570a-3236-46ac-90d6-c8e3ce33e9e6")
 	)
 	(text "VGOOD"
 		(exclude_from_sim no)

@@ -1014,25 +1014,14 @@
 		)
 		(uuid "193b8e79-08af-408c-a88b-eb05f0765a47")
 	)
-	(text "0x68"
+	(text "I2C0 ADDR\n0x68"
 		(exclude_from_sim no)
-		(at 176.276 127.508 0)
+		(at 160.02 128.778 0)
 		(effects
 			(font
 				(size 2.159 2.159)
 			)
-			(justify left bottom)
-		)
-		(uuid "4d6b2df3-8c82-4110-a169-2114f32abcc0")
-	)
-	(text "I2C ADDR"
-		(exclude_from_sim no)
-		(at 168.91 123.698 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "be3573ec-0539-4398-9310-afc4f41e7545")
 	)
