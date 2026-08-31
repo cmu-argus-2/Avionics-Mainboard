@@ -1,17 +1,15 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "49bb80b8-2c90-4e2f-88be-6e3f8911ec69")
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2025-11-24")
-		(rev "v4.2")
+		(date "2026-07-12")
+		(rev "v2026")
 		(company "Carnegie Mellon University")
-		(comment 1 "M. Holliday")
-		(comment 2 "N. Khera")
-		(comment 3 "V. Rajesh")
+		(comment 1 "N. Khera")
 	)
 	(lib_symbols)
 	(wire
@@ -153,11 +151,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "78119d8f-72cc-42e3-aa87-c12b52c477b9")
 		(property "Sheetname" "WireProtection"
 			(at 134.62 79.5524 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,6 +167,8 @@
 		)
 		(property "Sheetfile" "WireProtection.kicad_sch"
 			(at 134.62 88.2146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +178,7 @@
 		)
 		(pin "BUS" bidirectional
 			(at 152.4 85.09 0)
-			(uuid "1c1c6458-834a-43e1-8cee-b9d71a81455b")
+			(uuid "794dc407-2473-409f-96ea-8d68f4f8c382")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +188,7 @@
 		)
 		(pin "DEVICE" bidirectional
 			(at 134.62 85.09 180)
-			(uuid "b04c50ac-ffc8-4282-8421-c7658aca13ac")
+			(uuid "8728b717-1ce7-4072-b9f1-8208eb606f6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +198,7 @@
 		)
 		(pin "3V3" input
 			(at 134.62 82.55 180)
-			(uuid "61312dc7-6e8b-413c-97b6-72745e6a38ba")
+			(uuid "a3ad062e-3a10-4472-a83c-38f4cc15368c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,21 +208,17 @@
 		)
 		(instances
 			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4"
-					(page "20")
-				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc"
 					(page "19")
 				)
-			)
-			(project ""
-				(path "/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8"
-					(page "#")
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/065ad601-da60-4585-92e2-80889460fa02"
+					(page "15")
 				)
-			)
-			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8"
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8"
 					(page "6")
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6"
+					(page "16")
 				)
 			)
 		)
@@ -238,11 +236,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ec96f119-4921-4ef6-adcf-d9378a123968")
 		(property "Sheetname" "WireProtection1"
 			(at 134.62 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,6 +252,8 @@
 		)
 		(property "Sheetfile" "WireProtection.kicad_sch"
 			(at 134.62 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +263,7 @@
 		)
 		(pin "BUS" bidirectional
 			(at 152.4 99.06 0)
-			(uuid "29e363ee-c768-44ca-986a-bb15b232caf4")
+			(uuid "d6b05ee8-5f94-428c-a8d0-f4559bdc5ab0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +273,7 @@
 		)
 		(pin "DEVICE" bidirectional
 			(at 134.62 99.06 180)
-			(uuid "79283ac2-c2c2-440b-888f-4fb74caead2c")
+			(uuid "eb0b3b09-ca3e-4c37-84b8-030d596dbf96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,7 +283,7 @@
 		)
 		(pin "3V3" input
 			(at 134.62 96.52 180)
-			(uuid "787ff73f-7cef-4702-9065-0f9e59ee0c4c")
+			(uuid "f7a22921-54cf-4e97-a30d-858175b93cf0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -291,20 +293,17 @@
 		)
 		(instances
 			(project "Avionics-MainBoard"
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/fac17611-3490-4577-970c-973f049d9ec4"
-					(page "12")
-				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/b16b096c-e757-42e7-a323-f6a3422bc211/348ba3c5-7295-4b06-815c-f95ee0f933c6"
 					(page "13")
-				)
-				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/5194385a-96b9-4b1e-ba0c-f9caab4441d8"
-					(page "16")
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/3f0382bc-d1c5-4b96-b1e3-7c1e11b1f7f8"
 					(page "17")
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/60aa2943-2df4-4541-853f-c25e8e58a8ce/5ab6bffb-ac70-4d04-bc1f-09141586f2fc"
 					(page "27")
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/065ad601-da60-4585-92e2-80889460fa02"
+					(page "22")
 				)
 			)
 		)

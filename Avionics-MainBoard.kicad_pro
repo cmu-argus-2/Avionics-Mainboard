@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.1524,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.1778,
+          "pad_connection": 2,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -77,6 +95,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
@@ -95,6 +114,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -114,9 +134,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "warning",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -231,17 +254,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "v2026"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -432,11 +466,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -459,6 +496,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "warning",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -491,13 +529,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
+        "tuning_profile": "",
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -508,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Gerbers/",
+      "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Avionics-MainBoard.step",
@@ -519,6 +558,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -650,13 +693,15 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "connection_grid_size": 50.0,
+    "bus_aliases": {},
+    "connection_grid_size": 25.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -678,8 +723,17 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -688,24 +742,37 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "Avionics-MainBoard.kicad_sch",
+        "name": "Avionics-MainBoard",
+        "uuid": "4c932743-8c6f-426e-9c1f-5a3f2b32c70d"
+      }
+    ],
+    "used_designators": "TP1-8,#FLG1-13,R13-16,R20-29,R32-40,R42,R44-45,R52-54,R78-89,R95,R117,R136-149,R153-191,H5-6,BT2,JP1,U4-11,U13,U18-24,C24-25,C31-39,C42-52,C56-58,C61-62,C69,C75-80,C83-96,#PWR10-11,#PWR14,#PWR20-22,#PWR24-32,#PWR34,#PWR41,#PWR43-44,#PWR62,#PWR64-72,#PWR74-79,#PWR92,#PWR96-97,#PWR99-103,#PWR105-107,#PWR109-114,#PWR116-130,#PWR132-145,#PWR149-150,#PWR153-158,#PWR160,#PWR162-165,#PWR167-169,#PWR172-173,#PWR175-176,#PWR179-180,#PWR184,#PWR186,#PWR190-191,#PWR193,#PWR195,#PWR198-205,#PWR207-224,#PWR226,#PWR228-231,#PWR233-234,#PWR236-239,#PWR248-266,#PWR313-314,D2-6,D13-16,D21,Q2-3,Q23-33,#SUPPLY9-10,#SUPPLY13-14,#SUPPLY16,#SUPPLY20-26,L2-4,J14-15,J20-28",
+    "variants": []
   },
   "sheets": [
     [
       "4c932743-8c6f-426e-9c1f-5a3f2b32c70d",
-      "Root"
+      "Avionics-MainBoard"
     ],
     [
       "21e71e76-dfb6-4af2-84cc-797c0fdddabe",
       "MCU_IO"
     ],
     [
+      "46e6dc24-9667-439b-b2b4-0fdccb26c5bf",
+      "SPI Protection2"
+    ],
+    [
       "db13e207-3bf8-4f4b-b8f6-f29c20baff72",
       "IMU"
     ],
     [
-      "fac17611-3490-4577-970c-973f049d9ec4",
-      "I2C Protection4"
+      "1bb7ca93-5440-4e69-b63d-33bcb954a409",
+      "SPI Protection3"
     ],
     [
       "78119d8f-72cc-42e3-aa87-c12b52c477b9",
@@ -721,7 +788,7 @@
     ],
     [
       "83586450-5275-466d-92ec-f4b550f48d32",
-      "USB"
+      "Power Selection"
     ],
     [
       "00f4ddfb-afd6-4184-9f71-0fb73daba661",
@@ -732,8 +799,8 @@
       "SPI Protection1"
     ],
     [
-      "ec96f119-4921-4ef6-adcf-d9378a123968",
-      "WireProtection1"
+      "065ad601-da60-4585-92e2-80889460fa02",
+      "I2C Protection2"
     ],
     [
       "ec96f119-4921-4ef6-adcf-d9378a123968",
@@ -744,8 +811,12 @@
       "SPI Protection"
     ],
     [
-      "ec96f119-4921-4ef6-adcf-d9378a123968",
-      "WireProtection1"
+      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
+      "WireProtection"
+    ],
+    [
+      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
+      "WireProtection"
     ],
     [
       "ec96f119-4921-4ef6-adcf-d9378a123968",
@@ -760,28 +831,20 @@
       "WireProtection"
     ],
     [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
-    ],
-    [
       "4f4b7284-37b0-4a6d-8b77-acbb922141bd",
       "Connectors"
-    ],
-    [
-      "9c9d9468-b4b2-4446-8643-65a41782778e",
-      "Battery"
     ],
     [
       "1ff82478-f00f-4d48-a429-2ed9117c0498",
       "GPS"
     ],
     [
-      "6167394f-ef17-4174-a137-33bfda5b3a14",
-      "LoRa"
+      "ec96f119-4921-4ef6-adcf-d9378a123968",
+      "WireProtection1"
     ],
     [
-      "5194385a-96b9-4b1e-ba0c-f9caab4441d8",
-      "I2C Protection2"
+      "6167394f-ef17-4174-a137-33bfda5b3a14",
+      "LoRa"
     ],
     [
       "60aa2943-2df4-4541-853f-c25e8e58a8ce",
@@ -794,15 +857,13 @@
     [
       "ec96f119-4921-4ef6-adcf-d9378a123968",
       "WireProtection1"
-    ],
-    [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
-    ],
-    [
-      "78119d8f-72cc-42e3-aa87-c12b52c477b9",
-      "WireProtection"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }

@@ -1,17 +1,15 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "82ae1426-dc3e-4578-889c-ed8131e2691f")
 	(paper "A4")
 	(title_block
 		(title "Argus Mainboard")
-		(date "2025-11-24")
-		(rev "v4.2")
+		(date "2026-07-12")
+		(rev "v2026")
 		(company "Carnegie Mellon University")
-		(comment 1 "M. Holliday")
-		(comment 2 "N. Khera")
-		(comment 3 "V. Rajesh")
+		(comment 1 "N. Khera")
 	)
 	(lib_symbols
 		(symbol "Device:R_Small"
@@ -25,8 +23,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -35,6 +37,8 @@
 			)
 			(property "Value" "R_Small"
 				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,47 +47,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_Small_0_1"
@@ -103,7 +117,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,7 +135,7 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.762)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -147,8 +161,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
 				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -158,6 +176,8 @@
 			)
 			(property "Value" "MMBTA56"
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -167,50 +187,82 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://diotec.com/request/datasheet/mmbta56.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "0.5A Ic, 80V Vce, general purpose PNP"
 				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "SMD"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MMBTA56_0_1"
@@ -306,24 +358,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -334,6 +368,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,13 +620,17 @@
 		(lib_id "Device:R_Small")
 		(at 113.03 91.44 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b1422f9-db67-4f00-ba1e-36143fe38ee1")
-		(property "Reference" "R119"
+		(property "Reference" "R164"
 			(at 113.03 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,6 +639,8 @@
 		)
 		(property "Value" "4k7"
 			(at 113.03 89.408 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,54 +649,70 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 113.03 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C844931"
 			(at 113.03 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "fb5c80ca-09d2-4ef2-af5f-b2c6160b0a9b")
+			(uuid "76eb5822-12d8-40f4-90ba-7340de831bbd")
 		)
 		(pin "2"
-			(uuid "cc856a66-e35f-4de6-9b57-8c7dbd0601b8")
+			(uuid "cd884c3f-4571-4b89-9923-ff36b6902c1b")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R119")
+					(reference "R133")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "R107")
+					(reference "R110")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "R177")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "R164")
 					(unit 1)
 				)
 			)
@@ -648,13 +722,17 @@
 		(lib_id "Device:R_Small")
 		(at 173.99 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "7255bc40-0732-4fe1-87b6-675c90c2152f")
-		(property "Reference" "R123"
+		(property "Reference" "R168"
 			(at 173.99 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,6 +741,8 @@
 		)
 		(property "Value" "0R"
 			(at 173.99 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,54 +751,70 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DNI" "DNI"
 			(at 173.99 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4081aed7-9df9-4f82-9912-299a906b0fb0")
+			(uuid "9968c90c-ff52-4ac0-9e8a-dd0188c5307f")
 		)
 		(pin "2"
-			(uuid "1e628479-f8fa-47ed-941c-357e1c0b745c")
+			(uuid "93e26459-917d-44f6-82c3-3b0c326efdaa")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R123")
+					(reference "R137")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "R111")
+					(reference "R114")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "R181")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -728,14 +824,17 @@
 		(lib_id "Transistor_BJT:MMBTA56")
 		(at 120.65 97.79 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78bb4569-2465-4aa3-9fa6-f5c5d542d6c9")
-		(property "Reference" "Q18"
-			(at 120.65 104.14 90)
+		(property "Reference" "Q24"
+			(at 120.65 103.505 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +842,9 @@
 			)
 		)
 		(property "Value" "MMBT2907"
-			(at 120.65 106.68 90)
+			(at 120.65 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,60 +853,98 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 118.745 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/request/datasheet/mmbta56.pdf"
 			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "0.5A Ic, 80V Vce, general purpose PNP"
 			(at 120.65 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C5354954"
 			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 120.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
-			(uuid "c375e93e-50c9-4dbe-8a25-4107522586c9")
+			(uuid "a54a5cc0-4bfe-4b27-95d4-3c41a15dc80a")
 		)
 		(pin "1"
-			(uuid "9d97801d-5c47-4244-8806-5eddc17dd6e7")
+			(uuid "716c59bd-5ac1-4fa0-acb2-fd46e2afcfc1")
 		)
 		(pin "3"
-			(uuid "254ab392-d435-4053-87f3-712604d40b9c")
+			(uuid "2f7a19e9-7d45-4291-9bec-a82549b4d22d")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "Q18")
+					(reference "Q19")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "Q17")
+					(reference "Q18")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "Q25")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -815,13 +954,17 @@
 		(lib_id "Device:R_Small")
 		(at 173.99 100.33 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "93aba8dd-5c71-42b3-8b48-169993241eaa")
-		(property "Reference" "R122"
+		(property "Reference" "R167"
 			(at 173.99 96.266 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,6 +973,8 @@
 		)
 		(property "Value" "1k"
 			(at 173.99 98.044 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,54 +983,70 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C2484712"
 			(at 173.99 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "ea55ad9a-f7b0-49a8-98b6-e4a301c05658")
+			(uuid "967197ab-90c5-467f-8eb4-52b9a647d32d")
 		)
 		(pin "2"
-			(uuid "5f04fa21-c9d4-4765-87e9-7a83045e09ec")
+			(uuid "4a0ec739-56d3-4fc6-b3ce-bf8ddc8dfc98")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R122")
+					(reference "R136")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "R110")
+					(reference "R113")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "R180")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -895,13 +1056,17 @@
 		(lib_id "Device:R_Small")
 		(at 173.99 91.44 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "be17a0f0-17c5-4fe4-83a9-bd79077e5466")
-		(property "Reference" "R121"
+		(property "Reference" "R166"
 			(at 173.99 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,6 +1075,8 @@
 		)
 		(property "Value" "1k"
 			(at 173.99 89.154 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,54 +1085,70 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C2484712"
 			(at 173.99 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "54d03484-433f-4267-9374-263ced04a1c5")
+			(uuid "c55e1776-2407-4fcc-b7e1-0f7a9afd13e2")
 		)
 		(pin "2"
-			(uuid "b0ee96f5-62d6-48db-be3b-00ec7eb40682")
+			(uuid "669df536-e696-499f-b0ca-ee80cf6fea98")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R121")
+					(reference "R135")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "R109")
+					(reference "R112")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "R179")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -975,13 +1158,17 @@
 		(lib_id "Device:R_Small")
 		(at 110.49 100.33 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f67f55-3518-4993-95bc-9080adc3f269")
-		(property "Reference" "R120"
+		(property "Reference" "R165"
 			(at 110.49 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,6 +1177,8 @@
 		)
 		(property "Value" "0R"
 			(at 110.49 98.298 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,54 +1187,70 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C844915"
 			(at 110.49 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "66a271cf-4a3e-41cc-ba02-f584ada79d1c")
+			(uuid "8d76bf1b-cb50-4dbb-a729-c1262b21b81a")
 		)
 		(pin "2"
-			(uuid "ded9e506-f0dd-4233-8b47-c2e409e23a37")
+			(uuid "876cae73-ef73-457a-ade0-ba8569a46b6b")
 		)
 		(instances
 			(project "Avionics-MainBoard"
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/00f4ddfb-afd6-4184-9f71-0fb73daba661/61a7db01-d968-488e-83c5-60e79a23a452"
-					(reference "R120")
+					(reference "R134")
 					(unit 1)
 				)
 				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/6167394f-ef17-4174-a137-33bfda5b3a14/d6a2d62f-d8aa-4fe6-99dd-eb6ce237aeb0"
-					(reference "R108")
+					(reference "R111")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/1bb7ca93-5440-4e69-b63d-33bcb954a409"
+					(reference "R178")
+					(unit 1)
+				)
+				(path "/4c932743-8c6f-426e-9c1f-5a3f2b32c70d/db13e207-3bf8-4f4b-b8f6-f29c20baff72/46e6dc24-9667-439b-b2b4-0fdccb26c5bf"
+					(reference "R165")
 					(unit 1)
 				)
 			)
