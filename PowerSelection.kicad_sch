@@ -7814,7 +7814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDC6327C"
+		(property "Value" "DMC3060LVT"
 			(at 247.015 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +7907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FDC6327C"
+		(property "Value" "DMC3060LVT"
 			(at 227.33 112.395 0)
 			(show_name no)
 			(do_not_autoplace no)

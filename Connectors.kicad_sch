@@ -2421,6 +2421,17 @@
 		)
 		(uuid "3039287a-9afa-40f0-96e9-3c4e23cceb0e")
 	)
+	(text "RW_PWR_FLT"
+		(exclude_from_sim no)
+		(at 161.29 120.015 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32615758-1f23-4aa6-b78b-cd7f849f32fb")
+	)
 	(text "Payload_IO1"
 		(exclude_from_sim no)
 		(at 213.36 117.475 0)
@@ -2509,6 +2520,17 @@
 		)
 		(uuid "5e54d6c2-9064-45e4-aef5-1253af9ea095")
 	)
+	(text "RW_MTR_FLT"
+		(exclude_from_sim no)
+		(at 161.29 122.555 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fcd8613-0c15-4f6a-95d1-41dfc3e63b78")
+	)
 	(text "ADCS_CS"
 		(exclude_from_sim no)
 		(at 213.36 104.775 0)
@@ -2520,15 +2542,16 @@
 		)
 		(uuid "61270206-49b0-4b0b-8e10-10db0e1cc31a")
 	)
-	(text "TODO: 0ohm"
+	(text "RW_MTR_ALRM"
 		(exclude_from_sim no)
-		(at 155.575 112.395 0)
+		(at 161.29 125.095 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(uuid "73a6077d-f5d5-48c3-a5aa-01daac5dac1b")
+		(uuid "6beac242-1a8d-463c-8c50-1a7d0e71e11b")
 	)
 	(text "Payload_IO3"
 		(exclude_from_sim no)
@@ -2584,6 +2607,17 @@
 		)
 		(uuid "aa2ccb39-a3aa-4fab-8278-4e61db6c6681")
 	)
+	(text "RW_EN"
+		(exclude_from_sim no)
+		(at 161.29 117.475 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adfa2714-ae35-48dd-a43d-250c94677fce")
+	)
 	(text "Payload_IO3"
 		(exclude_from_sim no)
 		(at 213.36 122.555 0)
@@ -2605,6 +2639,17 @@
 			(justify left)
 		)
 		(uuid "b2a5365c-cbf3-4cf3-bb07-ee9881be9b45")
+	)
+	(text "RW_SDA"
+		(exclude_from_sim no)
+		(at 161.29 130.175 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b76655b4-34a8-44a6-9ae3-747d1eab5a82")
 	)
 	(text "Payload_En"
 		(exclude_from_sim no)
@@ -2704,6 +2749,17 @@
 			(justify right)
 		)
 		(uuid "e5893ef4-2ee7-4820-954c-746576216118")
+	)
+	(text "RW_SCL"
+		(exclude_from_sim no)
+		(at 161.29 127.635 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9d21dcd-4d9b-463d-b6c8-efc1058d238c")
 	)
 	(text "Payload_IO1"
 		(exclude_from_sim no)

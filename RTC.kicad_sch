@@ -3746,7 +3746,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4424,7 +4424,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 64.135 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4582,7 +4582,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_RTC"
+		(property "Value" "+3V3_M"
 			(at 197.485 118.745 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4752,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 209.55 130.175 0)
 			(show_name no)
 			(do_not_autoplace no)

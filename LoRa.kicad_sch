@@ -3280,7 +3280,7 @@
 	)
 	(text "Rsense"
 		(exclude_from_sim no)
-		(at 63.627 109.474 90)
+		(at 61.595 109.22 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 		(uuid "5d296f8e-1b79-472c-99f7-a049aada9273")
 	)
 	(junction
-		(at 61.595 104.14)
+		(at 59.69 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5da47d5d-f4c3-4604-aaf0-b320ffc37055")
@@ -3451,7 +3451,7 @@
 		(uuid "e0cf3286-e7bc-4668-a03e-1c1e04a866a0")
 	)
 	(junction
-		(at 61.595 114.3)
+		(at 59.69 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e157c13d-f8ed-44fa-93db-d22cc76dad0e")
@@ -3461,6 +3461,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ad1489-e556-4eee-8c99-1da27a34994d")
+	)
+	(junction
+		(at 221.615 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eafa0844-7d17-4814-a211-862cb6f0d875")
 	)
 	(junction
 		(at 66.675 163.195)
@@ -3497,10 +3503,6 @@
 	(no_connect
 		(at 92.71 113.03)
 		(uuid "d5339246-6347-4370-ad4c-5f2d084245e3")
-	)
-	(no_connect
-		(at 237.49 37.465)
-		(uuid "ebe90c1a-a8ef-47d9-a5ad-d654cc66f745")
 	)
 	(wire
 		(pts
@@ -3594,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 120.65) (xy 52.705 118.11)
+			(xy 50.8 120.65) (xy 50.8 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3624,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 110.49) (xy 67.945 114.3)
+			(xy 71.12 110.49) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3864,6 +3866,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3072572c-0c38-4584-b889-129105f76949")
+	)
+	(wire
+		(pts
 			(xy 177.165 128.27) (xy 177.165 130.81)
 		)
 		(stroke
@@ -3914,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 97.79)
+			(xy 71.12 91.44) (xy 71.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4184,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 111.76) (xy 61.595 114.3)
+			(xy 59.69 111.76) (xy 59.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4224,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 107.95) (xy 67.945 104.14)
+			(xy 71.12 107.95) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4364,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.615 102.235) (xy 221.615 106.045)
+			(xy 221.615 102.235) (xy 221.615 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4484,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 104.14) (xy 61.595 106.68)
+			(xy 59.69 104.14) (xy 59.69 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4594,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 114.3) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6bc041-99e9-4b2a-80d1-ddd0a2e491b8")
+	)
+	(wire
+		(pts
 			(xy 156.845 190.5) (xy 169.545 190.5)
 		)
 		(stroke
@@ -4644,13 +4666,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 104.14) (xy 61.595 104.14)
+			(xy 237.49 37.465) (xy 247.015 37.465)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8e0761e-ae53-4eba-b880-e14e685ad39c")
+		(uuid "b4f6f283-99e7-4404-9a1b-61ad667dc205")
 	)
 	(wire
 		(pts
@@ -4724,7 +4746,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 120.65) (xy 61.595 114.3)
+			(xy 59.69 120.65) (xy 59.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4844,6 +4866,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 104.14) (xy 221.615 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdf3008-22dd-4e38-a5c9-ec0f3948726b")
+	)
+	(wire
+		(pts
 			(xy 113.03 33.655) (xy 113.03 28.575)
 		)
 		(stroke
@@ -4911,6 +4943,16 @@
 			(type default)
 		)
 		(uuid "d64c9284-4e93-4781-8a9c-f809624edf29")
+	)
+	(wire
+		(pts
+			(xy 221.615 104.14) (xy 221.615 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae69a28-8c75-4730-8957-8b37323d9b73")
 	)
 	(wire
 		(pts
@@ -4994,6 +5036,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b3e198-6cf9-4783-a620-f368569c9fb9")
+	)
+	(wire
+		(pts
 			(xy 88.265 188.595) (xy 88.265 178.435)
 		)
 		(stroke
@@ -5034,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 120.65) (xy 61.595 120.65)
+			(xy 50.8 120.65) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 110.49) (xy 67.945 110.49)
+			(xy 72.39 110.49) (xy 71.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5104,16 +5156,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 114.3) (xy 61.595 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f70001cd-e4de-4928-854a-ccf27ef393ee")
-	)
-	(wire
-		(pts
 			(xy 85.725 178.435) (xy 85.725 180.975)
 		)
 		(stroke
@@ -5144,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 91.44) (xy 61.595 104.14)
+			(xy 59.69 91.44) (xy 59.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5164,7 +5206,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 107.95) (xy 67.945 107.95)
+			(xy 72.39 107.95) (xy 71.12 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5292,6 +5334,16 @@
 		)
 		(uuid "528fbd30-a06f-4061-801f-97493f006e2e")
 	)
+	(label "PG_LoRa"
+		(at 247.015 37.465 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "719204e5-75ae-4bc3-b8b8-3c6fd4e021d1")
+	)
 	(label "LoRa_CSn"
 		(at 255.27 146.685 0)
 		(effects
@@ -5381,6 +5433,16 @@
 			(justify left bottom)
 		)
 		(uuid "bb63b4aa-2f7d-482c-bd8c-d45e1e9e3726")
+	)
+	(label "PG_LoRa"
+		(at 213.36 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c09769d8-2297-4ba1-86f2-27326dfaaf96")
 	)
 	(label "LoRa_RX_EN"
 		(at 41.275 168.275 0)
@@ -5680,7 +5742,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 72.39 91.44 0)
+		(at 71.12 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5690,7 +5752,7 @@
 		(dnp no)
 		(uuid "09e37e0e-1d02-4630-9240-3797bac34963")
 		(property "Reference" "#PWR0155"
-			(at 72.39 95.25 0)
+			(at 71.12 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5701,7 +5763,7 @@
 			)
 		)
 		(property "Value" "VDD_LoRa"
-			(at 72.39 87.63 0)
+			(at 71.12 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5711,7 +5773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 91.44 0)
+			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 91.44 0)
+			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +5795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 72.39 91.44 0)
+			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +10042,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 52.705 118.11 0)
+		(at 50.8 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9990,7 +10052,7 @@
 		(dnp no)
 		(uuid "90e28174-8fed-4e9f-ba93-f5a72ac809b8")
 		(property "Reference" "#PWR0144"
-			(at 52.705 121.92 0)
+			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,7 +10063,7 @@
 			)
 		)
 		(property "Value" "VDD_LoRa"
-			(at 52.705 114.3 0)
+			(at 50.8 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10011,7 +10073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.705 118.11 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10022,7 +10084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.705 118.11 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10033,7 +10095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 52.705 118.11 0)
+			(at 50.8 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,7 +10196,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 61.595 109.22 0)
+		(at 59.69 109.22 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10145,7 +10207,7 @@
 		(dnp no)
 		(uuid "95e588f2-a698-4bdd-aed6-67e7d4c21c4e")
 		(property "Reference" "R86"
-			(at 60.325 108.204 0)
+			(at 58.42 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10156,7 +10218,7 @@
 			)
 		)
 		(property "Value" "10m"
-			(at 60.325 110.49 0)
+			(at 58.42 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10167,7 +10229,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 61.595 109.22 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10178,7 +10240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.595 109.22 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10189,7 +10251,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 61.595 109.22 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10200,7 +10262,7 @@
 			)
 		)
 		(property "MPN" "C840621"
-			(at 61.595 109.22 0)
+			(at 59.69 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11972,7 +12034,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 61.595 91.44 0)
+		(at 59.69 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11982,7 +12044,7 @@
 		(dnp no)
 		(uuid "d9ac5d98-d8a7-4474-8d0b-d42381c5bf2c")
 		(property "Reference" "#PWR044"
-			(at 61.595 95.25 0)
+			(at 59.69 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11993,7 +12055,7 @@
 			)
 		)
 		(property "Value" "VSYS_LoRa"
-			(at 61.595 87.63 0)
+			(at 59.69 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12003,7 +12065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.595 91.44 0)
+			(at 59.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12014,7 +12076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.595 91.44 0)
+			(at 59.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12025,7 +12087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 61.595 91.44 0)
+			(at 59.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +12884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 53.34 178.181 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13161,7 +13223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 60.325 178.181 0)
 			(show_name no)
 			(do_not_autoplace no)
